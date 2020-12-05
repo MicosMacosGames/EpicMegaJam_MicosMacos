@@ -72,3 +72,7 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Wwise
+../EpicMegaJam-MicosMacosWwise_Project/.cache/
+../EpicMegaJam-MicosMacosWwise_Project/Originals/*.akd
