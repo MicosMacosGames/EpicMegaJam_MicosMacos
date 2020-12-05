@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	139741690	placeholder_lucho			\Default Work Unit\placeholder_lucho	
+

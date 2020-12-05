@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	139741690	placeholder_lucho			\Default Work Unit\placeholder_lucho	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	268996975	placeholder_lucho	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\placeholder_lucho_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder_lucho		197440
+

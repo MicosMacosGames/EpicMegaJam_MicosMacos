@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\",
+   "SourceFilesRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "702482391",
+    "GUID": "{E58E0BD5-FCDA-42A2-9210-D8E3F1BDD478}",
+    "Language": "SFX",
+    "Hash": "906478723",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Game",
+    "ShortName": "Game",
+    "Path": "Game.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "139741690",
+      "Name": "placeholder_lucho",
+      "ObjectPath": "\\Events\\Default Work Unit\\placeholder_lucho",
+      "GUID": "{61465E14-BD80-4144-A7B2-A0A50CC24678}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.118912",
+      "DurationMax": "1.118912",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "268996975",
+        "Language": "SFX",
+        "ShortName": "placeholder_lucho.wav",
+        "Path": "SFX\\placeholder_lucho_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
