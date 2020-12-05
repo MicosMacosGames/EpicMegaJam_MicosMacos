@@ -14,6 +14,27 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="stop_all" ID="{F1B7829A-85A2-4F5E-8020-8C88BEF97E76}">
+					<ChildrenList>
+						<Action Name="" ID="{30BD9225-E403-45F1-B393-C510A137B978}" ShortID="542703319">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="walk_step" ID="{95043A34-3DD5-4579-A526-29E86C3DCFCB}">
+					<ChildrenList>
+						<Action Name="" ID="{9AD4B274-47AA-426C-8F18-3B514FAF10A6}" ShortID="941599152">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Walking_Step" ID="{1E7A122C-C01C-476A-B49F-53627D7B016C}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
