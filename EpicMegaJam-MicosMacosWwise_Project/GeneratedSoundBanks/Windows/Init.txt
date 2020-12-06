@@ -1,3 +1,11 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1834394558	surface			\Default Work Unit\surface	
+
+State	ID	Name	State Group			Notes
+	748895195	None	surface			
+	2473969246	metal	surface			
+	2637588553	tile	surface			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Reflect Acoustic Textures\Textures\Brick	
 	513139656	Mountain			\Factory Reflect Acoustic Textures\Textures\Mountain	

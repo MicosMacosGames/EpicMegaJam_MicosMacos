@@ -35,6 +35,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="land_jump" ID="{4D41EA81-B2CA-498C-95C0-422A3D1B3B2F}">
+					<ChildrenList>
+						<Action Name="" ID="{6BE427A1-E24E-4ACA-8D42-2A0B760A3FE4}" ShortID="32094104">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump_Fall" ID="{D183C50D-71F9-462A-BF3D-56D6BA8CB2E8}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

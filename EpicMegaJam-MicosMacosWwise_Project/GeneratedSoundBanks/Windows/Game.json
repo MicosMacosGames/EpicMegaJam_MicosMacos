@@ -16,11 +16,53 @@
     "Id": "702482391",
     "GUID": "{E58E0BD5-FCDA-42A2-9210-D8E3F1BDD478}",
     "Language": "SFX",
-    "Hash": "906478723",
+    "Hash": "70354044",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Game",
     "ShortName": "Game",
     "Path": "Game.bnk",
     "IncludedEvents": [
+     {
+      "Id": "2401821937",
+      "Name": "land_jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\land_jump",
+      "GUID": "{4D41EA81-B2CA-498C-95C0-422A3D1B3B2F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.367448",
+      "DurationMax": "0.686599",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "265711364",
+        "Language": "SFX",
+        "ShortName": "landing_on_tile.wav",
+        "Path": "SFX\\landing_on_tile_10C4C929.wem"
+       },
+       {
+        "Id": "1070978154",
+        "Language": "SFX",
+        "ShortName": "landing_on_metal.wav",
+        "Path": "SFX\\landing_on_metal_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{202D0293-272A-42C5-9406-27C48A95142A}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{7EAE14BF-60F6-4431-878D-DD31A32495ED}",
+        "Media": [
+         {
+          "Id": "1070978154"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{202D0293-272A-42C5-9406-27C48A95142A}",
+        "Media": [
+         {
+          "Id": "265711364"
+         }
+        ]
+       }
+      ]
+     },
      {
       "Id": "139741690",
       "Name": "placeholder_lucho",
@@ -35,6 +77,260 @@
         "Language": "SFX",
         "ShortName": "placeholder_lucho.wav",
         "Path": "SFX\\placeholder_lucho_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "452547817",
+      "Name": "stop_all",
+      "ObjectPath": "\\Events\\Default Work Unit\\stop_all",
+      "GUID": "{F1B7829A-85A2-4F5E-8020-8C88BEF97E76}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "3479586975",
+      "Name": "walk_step",
+      "ObjectPath": "\\Events\\Default Work Unit\\walk_step",
+      "GUID": "{95043A34-3DD5-4579-A526-29E86C3DCFCB}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.125066",
+      "DurationMax": "0.655464",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "10101463",
+        "Language": "SFX",
+        "ShortName": "Walk_10.wav",
+        "Path": "SFX\\Walk_10_10C4C929.wem"
+       },
+       {
+        "Id": "38457912",
+        "Language": "SFX",
+        "ShortName": "Walk_11.wav",
+        "Path": "SFX\\Walk_11_10C4C929.wem"
+       },
+       {
+        "Id": "56870491",
+        "Language": "SFX",
+        "ShortName": "Walk_6.wav",
+        "Path": "SFX\\Walk_6_10C4C929.wem"
+       },
+       {
+        "Id": "115517585",
+        "Language": "SFX",
+        "ShortName": "Walking_Metal_2.wav",
+        "Path": "SFX\\Walking_Metal_2_10C4C929.wem"
+       },
+       {
+        "Id": "254417195",
+        "Language": "SFX",
+        "ShortName": "Walk_13.wav",
+        "Path": "SFX\\Walk_13_10C4C929.wem"
+       },
+       {
+        "Id": "276035138",
+        "Language": "SFX",
+        "ShortName": "Walking_Metal_3.wav",
+        "Path": "SFX\\Walking_Metal_3_10C4C929.wem"
+       },
+       {
+        "Id": "300417203",
+        "Language": "SFX",
+        "ShortName": "Walk_3.wav",
+        "Path": "SFX\\Walk_3_10C4C929.wem"
+       },
+       {
+        "Id": "441591980",
+        "Language": "SFX",
+        "ShortName": "Walking_Metal_6.wav",
+        "Path": "SFX\\Walking_Metal_6_10C4C929.wem"
+       },
+       {
+        "Id": "629120973",
+        "Language": "SFX",
+        "ShortName": "Walking_Metal_1.wav",
+        "Path": "SFX\\Walking_Metal_1_10C4C929.wem"
+       },
+       {
+        "Id": "657320189",
+        "Language": "SFX",
+        "ShortName": "Walk_12.wav",
+        "Path": "SFX\\Walk_12_10C4C929.wem"
+       },
+       {
+        "Id": "664161433",
+        "Language": "SFX",
+        "ShortName": "Walk_2.wav",
+        "Path": "SFX\\Walk_2_10C4C929.wem"
+       },
+       {
+        "Id": "697657336",
+        "Language": "SFX",
+        "ShortName": "Walking_Metal_5.wav",
+        "Path": "SFX\\Walking_Metal_5_10C4C929.wem"
+       },
+       {
+        "Id": "750152292",
+        "Language": "SFX",
+        "ShortName": "Walk_7.wav",
+        "Path": "SFX\\Walk_7_10C4C929.wem"
+       },
+       {
+        "Id": "787042566",
+        "Language": "SFX",
+        "ShortName": "Walk_8.wav",
+        "Path": "SFX\\Walk_8_10C4C929.wem"
+       },
+       {
+        "Id": "880564227",
+        "Language": "SFX",
+        "ShortName": "Walk_5.wav",
+        "Path": "SFX\\Walk_5_10C4C929.wem"
+       },
+       {
+        "Id": "901390688",
+        "Language": "SFX",
+        "ShortName": "Walk_1.wav",
+        "Path": "SFX\\Walk_1_10C4C929.wem"
+       },
+       {
+        "Id": "903959091",
+        "Language": "SFX",
+        "ShortName": "Walking_Metal_9.wav",
+        "Path": "SFX\\Walking_Metal_9_10C4C929.wem"
+       },
+       {
+        "Id": "933543172",
+        "Language": "SFX",
+        "ShortName": "Walk_9.wav",
+        "Path": "SFX\\Walk_9_10C4C929.wem"
+       },
+       {
+        "Id": "934539498",
+        "Language": "SFX",
+        "ShortName": "Walk_4.wav",
+        "Path": "SFX\\Walk_4_10C4C929.wem"
+       },
+       {
+        "Id": "991928093",
+        "Language": "SFX",
+        "ShortName": "Walking_Metal_7.wav",
+        "Path": "SFX\\Walking_Metal_7_10C4C929.wem"
+       },
+       {
+        "Id": "1043887779",
+        "Language": "SFX",
+        "ShortName": "Walking_Metal_4.wav",
+        "Path": "SFX\\Walking_Metal_4_10C4C929.wem"
+       },
+       {
+        "Id": "1050217984",
+        "Language": "SFX",
+        "ShortName": "Walking_Metal_8.wav",
+        "Path": "SFX\\Walking_Metal_8_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{202D0293-272A-42C5-9406-27C48A95142A}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{202D0293-272A-42C5-9406-27C48A95142A}",
+        "Media": [
+         {
+          "Id": "901390688"
+         },
+         {
+          "Id": "664161433"
+         },
+         {
+          "Id": "300417203"
+         },
+         {
+          "Id": "934539498"
+         },
+         {
+          "Id": "880564227"
+         },
+         {
+          "Id": "56870491"
+         },
+         {
+          "Id": "750152292"
+         },
+         {
+          "Id": "787042566"
+         },
+         {
+          "Id": "933543172"
+         },
+         {
+          "Id": "10101463"
+         },
+         {
+          "Id": "38457912"
+         },
+         {
+          "Id": "657320189"
+         },
+         {
+          "Id": "254417195"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{7EAE14BF-60F6-4431-878D-DD31A32495ED}",
+        "Media": [
+         {
+          "Id": "629120973"
+         },
+         {
+          "Id": "115517585"
+         },
+         {
+          "Id": "276035138"
+         },
+         {
+          "Id": "1043887779"
+         },
+         {
+          "Id": "697657336"
+         },
+         {
+          "Id": "441591980"
+         },
+         {
+          "Id": "991928093"
+         },
+         {
+          "Id": "1050217984"
+         },
+         {
+          "Id": "903959091"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1834394558",
+      "Name": "surface",
+      "ObjectPath": "\\Switches\\Default Work Unit\\surface",
+      "GUID": "{D0FC76F0-BDF6-4946-BA13-18875071854F}",
+      "Switches": [
+       {
+        "Id": "2637588553",
+        "Name": "tile",
+        "ObjectPath": "\\Switches\\Default Work Unit\\surface\\tile",
+        "GUID": "{202D0293-272A-42C5-9406-27C48A95142A}"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\surface\\metal",
+        "GUID": "{7EAE14BF-60F6-4431-878D-DD31A32495ED}"
        }
       ]
      }
