@@ -68,6 +68,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="play_fire_loop" ID="{E54EBB99-9FAD-4606-81C3-EEF83068074F}">
+					<ChildrenList>
+						<Action Name="" ID="{F35D7C34-BB57-4DEB-B7F8-BCD15B181FE0}" ShortID="917228578">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fire_Sound" ID="{A05FDF15-DC56-401C-9CA2-2C14F8C0E8CD}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_door_opening" ID="{03C8D2E5-FAEE-4A0A-A03B-758625885646}">
+					<ChildrenList>
+						<Action Name="" ID="{15FEBE23-D962-4256-BB83-7C46403FF79A}" ShortID="121877683">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door_Opening" ID="{0FA8DC23-F0DA-4CD6-95B5-FB64E02304F5}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
