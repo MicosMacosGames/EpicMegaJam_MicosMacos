@@ -16,7 +16,7 @@
     "Id": "702482391",
     "GUID": "{E58E0BD5-FCDA-42A2-9210-D8E3F1BDD478}",
     "Language": "SFX",
-    "Hash": "70354044",
+    "Hash": "3568262519",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Game",
     "ShortName": "Game",
     "Path": "Game.bnk",
@@ -24,7 +24,7 @@
      {
       "Id": "2401821937",
       "Name": "land_jump",
-      "ObjectPath": "\\Events\\Default Work Unit\\land_jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\land_jump",
       "GUID": "{4D41EA81-B2CA-498C-95C0-422A3D1B3B2F}",
       "DurationType": "OneShot",
       "DurationMin": "0.367448",
@@ -66,7 +66,7 @@
      {
       "Id": "139741690",
       "Name": "placeholder_lucho",
-      "ObjectPath": "\\Events\\Default Work Unit\\placeholder_lucho",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\placeholder_lucho",
       "GUID": "{61465E14-BD80-4144-A7B2-A0A50CC24678}",
       "DurationType": "OneShot",
       "DurationMin": "1.118912",
@@ -81,9 +81,64 @@
       ]
      },
      {
+      "Id": "1026169559",
+      "Name": "play_ambience_loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_ambience_loop",
+      "GUID": "{B40B3A74-C7A6-436D-886E-D3295DFCE262}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "900857646",
+        "Language": "SFX",
+        "ShortName": "old_building_ambience_loop.wav",
+        "Path": "SFX\\old_building_ambience_loop_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1548782119",
+      "Name": "play_door_opening",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_door_opening",
+      "GUID": "{03C8D2E5-FAEE-4A0A-A03B-758625885646}",
+      "MaxAttenuation": "100.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "5.750000",
+      "DurationMax": "5.750000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "978827002",
+        "Language": "SFX",
+        "ShortName": "Door_Opening.wav",
+        "Path": "SFX\\Door_Opening_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1779335",
+      "Name": "play_fire_loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_fire_loop",
+      "GUID": "{E54EBB99-9FAD-4606-81C3-EEF83068074F}",
+      "MaxAttenuation": "100.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "9237805",
+        "Language": "SFX",
+        "ShortName": "Fire_Loop_1.wav",
+        "Path": "SFX\\Fire_Loop_1_D79FB2B7.wem"
+       },
+       {
+        "Id": "672518626",
+        "Language": "SFX",
+        "ShortName": "Fire_Loop_2.wav",
+        "Path": "SFX\\Fire_Loop_2_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
       "Id": "452547817",
       "Name": "stop_all",
-      "ObjectPath": "\\Events\\Default Work Unit\\stop_all",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\stop_all",
       "GUID": "{F1B7829A-85A2-4F5E-8020-8C88BEF97E76}",
       "MaxAttenuation": "0.000000",
       "DurationType": "OneShot",
@@ -93,7 +148,7 @@
      {
       "Id": "3479586975",
       "Name": "walk_step",
-      "ObjectPath": "\\Events\\Default Work Unit\\walk_step",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\walk_step",
       "GUID": "{95043A34-3DD5-4579-A526-29E86C3DCFCB}",
       "DurationType": "OneShot",
       "DurationMin": "0.125066",

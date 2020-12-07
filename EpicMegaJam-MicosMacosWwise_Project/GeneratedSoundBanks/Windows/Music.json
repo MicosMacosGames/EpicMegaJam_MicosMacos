@@ -16,7 +16,7 @@
     "Id": "3991942870",
     "GUID": "{FF3B5BDD-0E17-417A-B34A-29A8D5E668D4}",
     "Language": "SFX",
-    "Hash": "2561493796",
+    "Hash": "3827129509",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
@@ -24,7 +24,7 @@
      {
       "Id": "1231987938",
       "Name": "play_gameplay_music",
-      "ObjectPath": "\\Events\\Default Work Unit\\play_gameplay_music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\play_gameplay_music",
       "GUID": "{E95E99F2-0B45-4935-9EFB-974F140E476F}",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
@@ -81,7 +81,7 @@
      {
       "Id": "2895168921",
       "Name": "play_main_menu_music",
-      "ObjectPath": "\\Events\\Default Work Unit\\play_main_menu_music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\play_main_menu_music",
       "GUID": "{508489F5-42AD-46EB-BE35-EA50E4715F33}",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [

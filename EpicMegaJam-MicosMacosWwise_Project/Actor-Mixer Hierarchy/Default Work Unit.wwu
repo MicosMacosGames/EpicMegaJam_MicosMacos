@@ -947,6 +947,31 @@
 						<ActiveSource Name="Door_Opening" ID="{991A79E7-C547-43E3-9202-A5184AED63F7}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="old_building_ambience_loop" ID="{18370028-020F-4445-9F7D-F9829887C525}" ShortID="1045696876">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8BDED7E-AAFE-43D5-A733-45FABDC95232}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="old_building_ambience_loop" ID="{E6B3BB09-2B24-42D7-ADE3-09ACC9ADF4EE}">
+							<Language>SFX</Language>
+							<AudioFile>old_building_ambience_loop.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="900857646"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="old_building_ambience_loop" ID="{E6B3BB09-2B24-42D7-ADE3-09ACC9ADF4EE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
