@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\",
+   "SourceFilesRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2086676059",
+    "GUID": "{7C60265B-265B-165B-5B5B-5B5B5B5B5B5B}",
+    "Language": "SFX",
+    "Hash": "544245357",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_E54EBB999FAD460681C3EEF83068074F",
+    "ShortName": "SB_E54EBB999FAD460681C3EEF83068074F",
+    "Path": "SB_E54EBB999FAD460681C3EEF83068074F.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1779335",
+      "Name": "play_fire_loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_fire_loop",
+      "GUID": "{E54EBB99-9FAD-4606-81C3-EEF83068074F}",
+      "MaxAttenuation": "100.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "9237805",
+        "Language": "SFX",
+        "ShortName": "Fire_Loop_1.wav",
+        "Path": "SFX\\Fire_Loop_1_D79FB2B7.wem"
+       },
+       {
+        "Id": "672518626",
+        "Language": "SFX",
+        "ShortName": "Fire_Loop_2.wav",
+        "Path": "SFX\\Fire_Loop_2_D79FB2B7.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
