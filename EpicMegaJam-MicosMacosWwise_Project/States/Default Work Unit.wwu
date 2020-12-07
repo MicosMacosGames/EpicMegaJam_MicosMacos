@@ -10,6 +10,13 @@
 						<State Name="metal" ID="{FB4C42FC-F1EE-4FBC-9AD3-B0DC87FE92AE}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="lvl_dimension" ID="{083E38FC-8F4B-42ED-96B1-3016DD5E553A}">
+					<ChildrenList>
+						<State Name="None" ID="{4423C9CD-E156-43E6-A8DF-BE846CFECB57}"/>
+						<State Name="past" ID="{60E0108C-4E7D-49DB-B42C-F9C1D3F8E7A0}"/>
+						<State Name="present" ID="{E102FDEE-916C-4679-9BDF-2F3A3EC21EFA}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

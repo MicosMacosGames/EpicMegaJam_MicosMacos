@@ -1,10 +1,14 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	1834394558	surface			\Default Work Unit\surface	
+	3695383560	lvl_dimension			\Default Work Unit\lvl_dimension	
 
 State	ID	Name	State Group			Notes
 	748895195	None	surface			
 	2473969246	metal	surface			
 	2637588553	tile	surface			
+	748895195	None	lvl_dimension			
+	1627031569	past	lvl_dimension			
+	3524519058	present	lvl_dimension			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Reflect Acoustic Textures\Textures\Brick	
