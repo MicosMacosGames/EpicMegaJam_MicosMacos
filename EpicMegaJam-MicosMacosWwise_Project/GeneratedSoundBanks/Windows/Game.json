@@ -16,7 +16,7 @@
     "Id": "702482391",
     "GUID": "{E58E0BD5-FCDA-42A2-9210-D8E3F1BDD478}",
     "Language": "SFX",
-    "Hash": "1550657238",
+    "Hash": "1431163302",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Game",
     "ShortName": "Game",
     "Path": "Game.bnk",
@@ -101,8 +101,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_button_active",
       "GUID": "{2B538AE3-B2FE-4C37-9281-D4B7CF45730A}",
       "DurationType": "OneShot",
-      "DurationMin": "0.358435",
-      "DurationMax": "0.358435",
+      "DurationMin": "0.379749",
+      "DurationMax": "0.379749",
       "IncludedMemoryFiles": [
        {
         "Id": "980064745",

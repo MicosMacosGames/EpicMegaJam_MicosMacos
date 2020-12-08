@@ -170,7 +170,13 @@
 				</RandomSequenceContainer>
 				<Sound Name="Door_Opening" ID="{0FA8DC23-F0DA-4CD6-95B5-FB64E02304F5}" ShortID="966950651">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
