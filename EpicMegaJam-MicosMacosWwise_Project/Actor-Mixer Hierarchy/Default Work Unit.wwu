@@ -992,12 +992,12 @@
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>-1364</YPos>
+														<YPos>-2786</YPos>
 														<Flags>5</Flags>
 														<SegmentShape>Log2</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>100</XPos>
+														<XPos>2</XPos>
 														<YPos>0</YPos>
 														<Flags>37</Flags>
 													</Point>
@@ -1026,7 +1026,7 @@
 														<SegmentShape>Exp1</SegmentShape>
 													</Point>
 													<Point>
-														<XPos>100</XPos>
+														<XPos>2</XPos>
 														<YPos>2.4631</YPos>
 														<Flags>37</Flags>
 													</Point>

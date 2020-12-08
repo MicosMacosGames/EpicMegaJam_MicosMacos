@@ -3,7 +3,12 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{10A920AC-C07D-40CE-A25A-D283072D5906}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="tp_cast_volume" ID="{F618B33E-7A76-4152-9BBE-0814A25F5FEA}"/>
+				<GameParameter Name="tp_cast_volume" ID="{F618B33E-7A76-4152-9BBE-0814A25F5FEA}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="2"/>
+						<Property Name="Max" Type="Real64" Value="2"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
