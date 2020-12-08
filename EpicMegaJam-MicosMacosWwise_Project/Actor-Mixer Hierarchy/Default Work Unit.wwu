@@ -1081,6 +1081,60 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Buttons&amp;levers" ID="{9A63A520-D260-4BE7-AA5E-0736F3189763}" ShortID="508100179">
+					<ChildrenList>
+						<Sound Name="button_stuck" ID="{D43A8671-33BD-4CBD-89C4-A2FA94EA1A77}" ShortID="549000793">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8BDED7E-AAFE-43D5-A733-45FABDC95232}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="button_stuck" ID="{180DE0C2-549F-4823-B1A2-85FB46E0F6B1}">
+									<Language>SFX</Language>
+									<AudioFile>button_stuck.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="557567192"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="button_stuck" ID="{180DE0C2-549F-4823-B1A2-85FB46E0F6B1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="button_press" ID="{DED493CF-9611-41A8-B6F9-0E1FA1DE9BAB}" ShortID="542150857">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8BDED7E-AAFE-43D5-A733-45FABDC95232}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="button_press" ID="{AFEF02AA-AAB4-4543-A84C-E872BFB7FFAA}">
+									<Language>SFX</Language>
+									<AudioFile>button_press.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="980064745"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="button_press" ID="{AFEF02AA-AAB4-4543-A84C-E872BFB7FFAA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

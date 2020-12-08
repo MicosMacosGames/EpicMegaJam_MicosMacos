@@ -139,6 +139,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="play_button_active" ID="{2B538AE3-B2FE-4C37-9281-D4B7CF45730A}">
+							<ChildrenList>
+								<Action Name="" ID="{25176C4A-C2C4-4FB0-9A89-1C71BCA17150}" ShortID="504456900">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="button_press" ID="{DED493CF-9611-41A8-B6F9-0E1FA1DE9BAB}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="play_button_locked" ID="{5CFE974A-74BE-42C6-9D74-34E58C1DFDF1}">
+							<ChildrenList>
+								<Action Name="" ID="{1B2E0594-5521-4295-8D91-13A1007554D5}" ShortID="408887390">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="button_stuck" ID="{D43A8671-33BD-4CBD-89C4-A2FA94EA1A77}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
