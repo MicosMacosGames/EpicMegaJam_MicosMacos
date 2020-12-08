@@ -695,6 +695,97 @@
 						</MusicPlaylistItem>
 					</Playlist>
 				</MusicPlaylistContainer>
+				<MusicSegment Name="timer" ID="{A64CA989-4B73-41DE-B4B7-DB5F019FF64D}" ShortID="436455542">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="13021.8818380744"/>
+						<Property Name="PlaybackSpeed" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{DB895BA4-4344-40D4-8341-3EEAFF260E02}" ShortID="941145275">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="timer_speed" ID="{2AABDB11-BBA2-4ECE-BB08-7779798D44F3}" WorkUnitID="{10A920AC-C07D-40CE-A25A-D283072D5906}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{78609C6D-0716-4028-B089-B3085D07E065}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0.25</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>4</XPos>
+												<YPos>4</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8BDED7E-AAFE-43D5-A733-45FABDC95232}"/>
+						</Reference>
+						<Reference Name="MidiTarget">
+							<ObjectRef Name="MIDI_Timer" ID="{FE82F836-0C3B-4140-9547-1E3166D8F7A4}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="timer" ID="{1BB5A786-955C-48A2-9F17-D72E281EDFD4}" ShortID="830167883">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MidiFileSource Name="timer" ID="{01B9534B-F062-45AB-8D07-BB9120E27AF1}" ShortID="83303331">
+									<Language>SFX</Language>
+									<MidiFile>timer.mid</MidiFile>
+									<MediaIDList>
+										<MediaID ID="83303331"/>
+									</MediaIDList>
+								</MidiFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{2C9F0D3F-DFBB-407E-9FC8-319F8CB12548}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{E27436E1-9B47-477E-8E3A-B51F470DB933}">
+									<ClipList>
+										<MusicClipMidi Name="timer" ID="{9B46D205-AF03-46EF-8665-7610F9716660}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="11625"/>
+											</PropertyList>
+											<MidiSourceRef Name="timer" ID="{01B9534B-F062-45AB-8D07-BB9120E27AF1}"/>
+										</MusicClipMidi>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{5441D47E-F2AF-4C36-B83A-18D707A43508}"/>
+						<MusicCue Name="Exit Cue" ID="{72FDFD20-9894-46B0-B122-00C9FC0A493A}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="11617.067833698"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>
