@@ -21,7 +21,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="tp_cast_volume" ID="{F618B33E-7A76-4152-9BBE-0814A25F5FEA}"/>
-							<Value>99.8692810457516</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Playback_Rate" ID="{28387EE3-C13A-4316-B9C3-DB5C521624AF}"/>

@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\",
+   "SourceFilesRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "625791466",
+    "GUID": "{254CD1EA-D1EA-11EA-EAEA-EAEAEAEAEAEA}",
+    "Language": "SFX",
+    "Hash": "1538075571",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_2B538AE3B2FE4C379281D4B7CF45730A",
+    "ShortName": "SB_2B538AE3B2FE4C379281D4B7CF45730A",
+    "Path": "SB_2B538AE3B2FE4C379281D4B7CF45730A.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2723322983",
+      "Name": "play_button_active",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_button_active",
+      "GUID": "{2B538AE3-B2FE-4C37-9281-D4B7CF45730A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.358435",
+      "DurationMax": "0.358435",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "980064745",
+        "Language": "SFX",
+        "ShortName": "button_press.wav",
+        "Path": "SFX\\button_press_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
