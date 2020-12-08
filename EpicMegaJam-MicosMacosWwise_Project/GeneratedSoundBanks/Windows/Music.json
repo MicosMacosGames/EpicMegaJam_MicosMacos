@@ -16,7 +16,7 @@
     "Id": "3991942870",
     "GUID": "{FF3B5BDD-0E17-417A-B34A-29A8D5E668D4}",
     "Language": "SFX",
-    "Hash": "3827129509",
+    "Hash": "2099928607",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
@@ -29,28 +29,28 @@
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
-        "Id": "147144065",
+        "Id": "65290926",
         "Language": "SFX",
-        "ShortName": "gp_music_classic_start.wav",
-        "Path": "SFX\\gp_music_classic_start_9EDFC787.wem"
+        "ShortName": "gp_music_synth_3_start.wav",
+        "Path": "SFX\\gp_music_synth_3_start_9EDFC787.wem"
        },
        {
-        "Id": "268541251",
+        "Id": "375901617",
         "Language": "SFX",
-        "ShortName": "gp_music_synth_loop.wav",
-        "Path": "SFX\\gp_music_synth_loop_9EDFC787.wem"
+        "ShortName": "gp_music_synth_3_loop.wav",
+        "Path": "SFX\\gp_music_synth_3_loop_9EDFC787.wem"
        },
        {
-        "Id": "418912607",
+        "Id": "416960691",
         "Language": "SFX",
-        "ShortName": "gp_music_classic_loop.wav",
-        "Path": "SFX\\gp_music_classic_loop_9EDFC787.wem"
+        "ShortName": "gp_music_classic_3_loop.wav",
+        "Path": "SFX\\gp_music_classic_3_loop_9EDFC787.wem"
        },
        {
-        "Id": "1026208472",
+        "Id": "1056081839",
         "Language": "SFX",
-        "ShortName": "gp_music_synth_start.wav",
-        "Path": "SFX\\gp_music_synth_start_9EDFC787.wem"
+        "ShortName": "gameplay_music_classic_3_start.wav",
+        "Path": "SFX\\gameplay_music_classic_3_start_9EDFC787.wem"
        }
       ],
       "SwitchContainers": [
@@ -58,10 +58,10 @@
         "SwitchValue": "{E102FDEE-916C-4679-9BDF-2F3A3EC21EFA}",
         "Media": [
          {
-          "Id": "418912607"
+          "Id": "416960691"
          },
          {
-          "Id": "147144065"
+          "Id": "1056081839"
          }
         ]
        },
@@ -69,10 +69,10 @@
         "SwitchValue": "{60E0108C-4E7D-49DB-B42C-F9C1D3F8E7A0}",
         "Media": [
          {
-          "Id": "268541251"
+          "Id": "375901617"
          },
          {
-          "Id": "1026208472"
+          "Id": "65290926"
          }
         ]
        }

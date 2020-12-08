@@ -950,6 +950,11 @@
 				<Sound Name="old_building_ambience_loop" ID="{18370028-020F-4445-9F7D-F9829887C525}" ShortID="1045696876">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -1007,6 +1012,9 @@
 									</RTPCList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{C09BA4C2-19BB-41B4-AFD1-3CE3B1972D85}" ShortID="52029654">
 											<ReferenceList>
@@ -1058,6 +1066,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="tp_end" ID="{662269B2-040D-44C1-98F5-E5F09FD4BB94}" ShortID="1011893276">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8BDED7E-AAFE-43D5-A733-45FABDC95232}"/>
@@ -1111,6 +1126,11 @@
 						<Sound Name="button_press" ID="{DED493CF-9611-41A8-B6F9-0E1FA1DE9BAB}" ShortID="542150857">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-100</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
