@@ -16,7 +16,7 @@
     "Id": "2626518337",
     "GUID": "{9C8D7D41-7D41-1D41-4141-414141414141}",
     "Language": "SFX",
-    "Hash": "1371167362",
+    "Hash": "2559103800",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_21904F6840F19111B0058897DD87666A",
     "ShortName": "SB_21904F6840F19111B0058897DD87666A",
     "Path": "SB_21904F6840F19111B0058897DD87666A.bnk",
@@ -81,6 +81,95 @@
       ]
      },
      {
+      "Id": "1026169559",
+      "Name": "play_ambience_loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_ambience_loop",
+      "GUID": "{B40B3A74-C7A6-436D-886E-D3295DFCE262}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "900857646",
+        "Language": "SFX",
+        "ShortName": "old_building_ambience_loop.wav",
+        "Path": "SFX\\old_building_ambience_loop_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2723322983",
+      "Name": "play_button_active",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_button_active",
+      "GUID": "{2B538AE3-B2FE-4C37-9281-D4B7CF45730A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.358435",
+      "DurationMax": "0.358435",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "980064745",
+        "Language": "SFX",
+        "ShortName": "button_press.wav",
+        "Path": "SFX\\button_press_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3169823511",
+      "Name": "play_button_locked",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_button_locked",
+      "GUID": "{5CFE974A-74BE-42C6-9D74-34E58C1DFDF1}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.516417",
+      "DurationMax": "0.516417",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "557567192",
+        "Language": "SFX",
+        "ShortName": "button_stuck.wav",
+        "Path": "SFX\\button_stuck_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1548782119",
+      "Name": "play_door_opening",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_door_opening",
+      "GUID": "{03C8D2E5-FAEE-4A0A-A03B-758625885646}",
+      "MaxAttenuation": "100.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "5.750000",
+      "DurationMax": "5.750000",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "978827002",
+        "Language": "SFX",
+        "ShortName": "Door_Opening.wav",
+        "Path": "SFX\\Door_Opening_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1779335",
+      "Name": "play_fire_loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_fire_loop",
+      "GUID": "{E54EBB99-9FAD-4606-81C3-EEF83068074F}",
+      "MaxAttenuation": "100.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "9237805",
+        "Language": "SFX",
+        "ShortName": "Fire_Loop_1.wav",
+        "Path": "SFX\\Fire_Loop_1_D79FB2B7.wem"
+       },
+       {
+        "Id": "672518626",
+        "Language": "SFX",
+        "ShortName": "Fire_Loop_2.wav",
+        "Path": "SFX\\Fire_Loop_2_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
       "Id": "452547817",
       "Name": "stop_all",
       "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\stop_all",
@@ -89,6 +178,38 @@
       "DurationType": "OneShot",
       "DurationMin": "0.000000",
       "DurationMax": "0.000000"
+     },
+     {
+      "Id": "2674582883",
+      "Name": "tp_end",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\tp_end",
+      "GUID": "{0DDC3FC1-8AE8-4F57-AA7C-2988E643CEB3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.986687",
+      "DurationMax": "0.986687",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "133434224",
+        "Language": "SFX",
+        "ShortName": "tp_end.wav",
+        "Path": "SFX\\tp_end_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2618135864",
+      "Name": "tp_start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\tp_start",
+      "GUID": "{2FBAB47C-73BD-4CB3-8812-579302592AD6}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "741913904",
+        "Language": "SFX",
+        "ShortName": "Electricity_Cast_Loopv1.wav",
+        "Path": "SFX\\Electricity_Cast_Loopv1_D79FB2B7.wem"
+       }
+      ]
      },
      {
       "Id": "3479586975",
@@ -311,6 +432,14 @@
         ]
        }
       ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "2540234394",
+      "Name": "tp_cast_volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\tp_cast_volume",
+      "GUID": "{F618B33E-7A76-4152-9BBE-0814A25F5FEA}"
      }
     ],
     "SwitchGroups": [
