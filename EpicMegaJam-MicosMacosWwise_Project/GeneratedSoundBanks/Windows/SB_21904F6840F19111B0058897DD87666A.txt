@@ -1,21 +1,3 @@
 Event	ID	Name			Wwise Object Path	Notes
-	139741690	placeholder_lucho			\Default Work Unit\Gameplay\placeholder_lucho	
-	452547817	stop_all			\Default Work Unit\Gameplay\stop_all	
-	2401821937	land_jump			\Default Work Unit\Gameplay\land_jump	
-	3479586975	walk_step			\Default Work Unit\Gameplay\walk_step	
-
-Switch Group	ID	Name			Wwise Object Path	Notes
-	1834394558	surface			\Default Work Unit\surface	
-
-Switch	ID	Name	Switch Group			Notes
-	2473969246	metal	surface			
-	2637588553	tile	surface			
-
-State Group	ID	Name			Wwise Object Path	Notes
-	1834394558	surface			\Default Work Unit\surface	
-
-State	ID	Name	State Group			Notes
-	748895195	None	surface			
-	2473969246	metal	surface			
-	2637588553	tile	surface			
+	139741690	placeholder_lucho			\Default Work Unit\placeholder_lucho	
 

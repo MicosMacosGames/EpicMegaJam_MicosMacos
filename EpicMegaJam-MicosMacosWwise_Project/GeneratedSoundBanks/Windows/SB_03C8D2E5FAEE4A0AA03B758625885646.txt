@@ -1,3 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	1548782119	play_door_opening			\Default Work Unit\Gameplay\play_door_opening	
-
