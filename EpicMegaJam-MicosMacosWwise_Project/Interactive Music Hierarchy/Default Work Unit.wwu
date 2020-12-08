@@ -8,6 +8,11 @@
 						<Property Name="Color" Type="int16" Value="4"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="Tempo" Type="Real64" Value="90"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-18</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -42,23 +47,23 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="gp_music_classic_loop" ID="{6BCAA20C-D132-4F44-90B3-1434E910301D}" ShortID="437304054">
+										<MusicTrack Name="gp_music_classic_3_loop" ID="{9A1BB079-62AB-4D2B-93F0-3BE7F4A42B8B}" ShortID="875026576">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="gp_music_classic_loop" ID="{5F402FAD-157C-4CB9-AF6C-04D3736C1779}">
+												<AudioFileSource Name="gp_music_classic_3_loop" ID="{215BFD96-70A2-4EE0-9279-350E81C128A2}">
 													<Language>SFX</Language>
-													<AudioFile>gp_music_classic_loop.wav</AudioFile>
+													<AudioFile>gp_music_classic_3_loop.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="418912607"/>
+														<MediaID ID="416960691"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{1A2900C5-B870-4295-B02B-1C23CF2EF51E}">
+												<MusicTransition Name="Root" ID="{C959469A-1F4E-434D-9F2B-1E5B59A9BA48}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -66,15 +71,15 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{DF277CC7-1492-416D-8DFF-C1162355B660}">
+												<MusicTrackSequence Name="" ID="{7B42A346-B0A9-440C-83B7-7CB4C6CE5759}">
 													<ClipList>
-														<MusicClip Name="gp_music_classic_loop" ID="{7E60C1A7-B963-4EF3-BB2E-65550AF35F26}">
+														<MusicClip Name="gp_music_classic_3_loop" ID="{33B99EDD-F84A-4240-831F-9E870C05E193}">
 															<PropertyList>
 																<Property Name="EndTrimOffset" Type="Real64" Value="85332.9931972789"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="gp_music_classic_loop" ID="{5F402FAD-157C-4CB9-AF6C-04D3736C1779}"/>
+															<AudioSourceRef Name="gp_music_classic_3_loop" ID="{215BFD96-70A2-4EE0-9279-350E81C128A2}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -104,23 +109,23 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="gp_music_classic_start" ID="{D41A4D63-CF80-4539-9992-4BB81F39B5E3}" ShortID="940547214">
+										<MusicTrack Name="gameplay_music_classic_3_start" ID="{62BC3033-6900-45D1-A3D2-79A4E96D0D0D}" ShortID="520148924">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="gp_music_classic_start" ID="{913679D1-A11C-427A-9484-483758B56337}">
+												<AudioFileSource Name="gameplay_music_classic_3_start" ID="{DB8EEF81-3D19-434F-9D4B-3B64CDB0642D}">
 													<Language>SFX</Language>
-													<AudioFile>gp_music_classic_start.wav</AudioFile>
+													<AudioFile>gameplay_music_classic_3_start.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="147144065"/>
+														<MediaID ID="1056081839"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{3CCB3A9B-DEE0-402A-8A90-E924222AC6B3}">
+												<MusicTransition Name="Root" ID="{F179179E-ED3D-4006-B1E5-E95E15A5090F}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -128,15 +133,15 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{DD6E6462-D7B5-45DF-8368-CDE13F1DDB7D}">
+												<MusicTrackSequence Name="" ID="{A6577A74-5017-4E81-AAB3-32EA7EC055D6}">
 													<ClipList>
-														<MusicClip Name="gp_music_classic_start" ID="{FF8104B1-DF7E-4261-9D9D-E00A9B48255F}">
+														<MusicClip Name="gameplay_music_classic_3_start" ID="{2B5DC5FC-474B-4F8D-A528-8E626EA124AD}">
 															<PropertyList>
 																<Property Name="EndTrimOffset" Type="Real64" Value="85332.9931972789"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="gp_music_classic_start" ID="{913679D1-A11C-427A-9484-483758B56337}"/>
+															<AudioSourceRef Name="gameplay_music_classic_3_start" ID="{DB8EEF81-3D19-434F-9D4B-3B64CDB0642D}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -214,23 +219,23 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="gp_music_synth_loop" ID="{49A678A2-5BB0-40E7-BED0-D78B920FF284}" ShortID="344031891">
+										<MusicTrack Name="gp_music_synth_3_loop" ID="{134F0E99-A13B-4A4B-BBB0-360892388CEC}" ShortID="180338350">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="gp_music_synth_loop" ID="{F18883C3-B919-4981-9786-B85ABE8DFBD6}">
+												<AudioFileSource Name="gp_music_synth_3_loop" ID="{8B1D9D47-9339-4B15-9238-EE29B8255767}">
 													<Language>SFX</Language>
-													<AudioFile>gp_music_synth_loop.wav</AudioFile>
+													<AudioFile>gp_music_synth_3_loop.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="268541251"/>
+														<MediaID ID="375901617"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{4DC1A7B1-0FD5-4673-9050-F38766F44428}">
+												<MusicTransition Name="Root" ID="{B77E9D0E-D0A8-405D-ADCF-4EA346EEF67E}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -238,15 +243,15 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{73FABE37-E847-4050-BA5E-EB1D11E93F8A}">
+												<MusicTrackSequence Name="" ID="{08591781-62CB-4582-B19B-FB59ABA940B3}">
 													<ClipList>
-														<MusicClip Name="gp_music_synth_loop" ID="{454F0F41-6E08-4F12-BB3A-3D91FF8E16EF}">
+														<MusicClip Name="gp_music_synth_3_loop" ID="{C2948954-F89C-44FA-B568-6316A4C7CF40}">
 															<PropertyList>
 																<Property Name="EndTrimOffset" Type="Real64" Value="85332.9931972789"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="gp_music_synth_loop" ID="{F18883C3-B919-4981-9786-B85ABE8DFBD6}"/>
+															<AudioSourceRef Name="gp_music_synth_3_loop" ID="{8B1D9D47-9339-4B15-9238-EE29B8255767}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -276,23 +281,23 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="gp_music_synth_start" ID="{E983BCCE-EE6A-41B8-8538-70C69EA99AB7}" ShortID="338588686">
+										<MusicTrack Name="gp_music_synth_3_start" ID="{3EF05D9C-5F91-4B7A-9881-6FB0316098BB}" ShortID="297729831">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="gp_music_synth_start" ID="{3AFC4E19-9A49-4BDD-A1FF-A6C29C839530}">
+												<AudioFileSource Name="gp_music_synth_3_start" ID="{C24D3C62-0D1D-4A33-A7C1-843B2D6399B7}">
 													<Language>SFX</Language>
-													<AudioFile>gp_music_synth_start.wav</AudioFile>
+													<AudioFile>gp_music_synth_3_start.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="1026208472"/>
+														<MediaID ID="65290926"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{EDF3A343-B4EB-4EA1-A403-9FFA413030EB}">
+												<MusicTransition Name="Root" ID="{5A048652-E2A2-45D6-9663-7DF618CC6392}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -300,15 +305,15 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{20F46FF2-D8A9-43C8-86A6-985C22BF9B73}">
+												<MusicTrackSequence Name="" ID="{ED6CD2F2-F50C-4DCA-84C4-E83800886320}">
 													<ClipList>
-														<MusicClip Name="gp_music_synth_start" ID="{F9EE44B9-AC33-4565-85CD-4DB2EDAE3A4A}">
+														<MusicClip Name="gp_music_synth_3_start" ID="{12525AD2-D21A-4422-8074-C1A81207FDED}">
 															<PropertyList>
 																<Property Name="EndTrimOffset" Type="Real64" Value="85332.9931972789"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="gp_music_synth_start" ID="{3AFC4E19-9A49-4BDD-A1FF-A6C29C839530}"/>
+															<AudioSourceRef Name="gp_music_synth_3_start" ID="{C24D3C62-0D1D-4A33-A7C1-843B2D6399B7}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
