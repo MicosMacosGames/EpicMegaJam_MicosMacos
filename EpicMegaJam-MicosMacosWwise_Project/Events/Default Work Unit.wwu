@@ -107,6 +107,38 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="tp_start" ID="{2FBAB47C-73BD-4CB3-8812-579302592AD6}">
+							<ChildrenList>
+								<Action Name="" ID="{85CD7FF4-C24E-4187-8613-F9D3541E3BD9}" ShortID="1013945190">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Electricity_Cast_Loopv1" ID="{AFCC1376-55D6-4DC9-965A-6FE3FBCE1168}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="tp_end" ID="{0DDC3FC1-8AE8-4F57-AA7C-2988E643CEB3}">
+							<ChildrenList>
+								<Action Name="" ID="{6C3E6353-ECC1-492D-94B4-FB3F38A8A40E}" ShortID="937554736">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="tp_end" ID="{662269B2-040D-44C1-98F5-E5F09FD4BB94}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{356F4128-9791-42CF-91A4-3FBFD61C70C4}" ShortID="1013921953">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Electricity_Cast_Loopv1" ID="{AFCC1376-55D6-4DC9-965A-6FE3FBCE1168}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{10A920AC-C07D-40CE-A25A-D283072D5906}" SchemaVersion="97">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{10A920AC-C07D-40CE-A25A-D283072D5906}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{10A920AC-C07D-40CE-A25A-D283072D5906}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="tp_cast_volume" ID="{F618B33E-7A76-4152-9BBE-0814A25F5FEA}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>
