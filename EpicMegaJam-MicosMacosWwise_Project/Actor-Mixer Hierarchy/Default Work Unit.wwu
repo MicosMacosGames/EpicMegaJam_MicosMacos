@@ -972,6 +972,115 @@
 						<ActiveSource Name="old_building_ambience_loop" ID="{E6B3BB09-2B24-42D7-ADE3-09ACC9ADF4EE}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Folder Name="Teleport" ID="{EE3C4F49-A831-4E59-A69B-62EDA8DCB7CF}" ShortID="784923926">
+					<ChildrenList>
+						<Sound Name="Electricity_Cast_Loopv1" ID="{AFCC1376-55D6-4DC9-965A-6FE3FBCE1168}" ShortID="649363233">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{C396F25F-7A26-4ECC-8763-0F6055D6E358}" ShortID="406001354">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="tp_cast_volume" ID="{F618B33E-7A76-4152-9BBE-0814A25F5FEA}" WorkUnitID="{10A920AC-C07D-40CE-A25A-D283072D5906}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{9FD38090-284A-45AB-BB3E-5B8AF3E1FF23}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-1364</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{C09BA4C2-19BB-41B4-AFD1-3CE3B1972D85}" ShortID="52029654">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="tp_cast_volume" ID="{F618B33E-7A76-4152-9BBE-0814A25F5FEA}" WorkUnitID="{10A920AC-C07D-40CE-A25A-D283072D5906}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{591A0F77-F294-4EA7-A564-57BD21DA424A}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-7.28834</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>2.4631</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8BDED7E-AAFE-43D5-A733-45FABDC95232}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Electricity_Cast_Loopv1" ID="{75A5F1DA-FE9E-48E8-A419-CB0B88A7FD88}">
+									<Language>SFX</Language>
+									<AudioFile>Electricity_Cast_Loopv1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="741913904"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Electricity_Cast_Loopv1" ID="{75A5F1DA-FE9E-48E8-A419-CB0B88A7FD88}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="tp_end" ID="{662269B2-040D-44C1-98F5-E5F09FD4BB94}" ShortID="1011893276">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8BDED7E-AAFE-43D5-A733-45FABDC95232}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="tp_end" ID="{E3A11C9C-7382-4551-B658-37776F2184F9}">
+									<Language>SFX</Language>
+									<AudioFile>tp_end.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="133434224"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="tp_end" ID="{E3A11C9C-7382-4551-B658-37776F2184F9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

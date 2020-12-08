@@ -15,6 +15,8 @@
 						<ObjectRef Name="play_fire_loop" ID="{E54EBB99-9FAD-4606-81C3-EEF83068074F}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="land_jump" ID="{4D41EA81-B2CA-498C-95C0-422A3D1B3B2F}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_door_opening" ID="{03C8D2E5-FAEE-4A0A-A03B-758625885646}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="tp_start" ID="{2FBAB47C-73BD-4CB3-8812-579302592AD6}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="tp_end" ID="{0DDC3FC1-8AE8-4F57-AA7C-2988E643CEB3}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="stop_all" ID="{F1B7829A-85A2-4F5E-8020-8C88BEF97E76}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

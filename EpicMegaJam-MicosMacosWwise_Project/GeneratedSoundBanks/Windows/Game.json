@@ -16,7 +16,7 @@
     "Id": "702482391",
     "GUID": "{E58E0BD5-FCDA-42A2-9210-D8E3F1BDD478}",
     "Language": "SFX",
-    "Hash": "3568262519",
+    "Hash": "4184831683",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Game",
     "ShortName": "Game",
     "Path": "Game.bnk",
@@ -144,6 +144,38 @@
       "DurationType": "OneShot",
       "DurationMin": "0.000000",
       "DurationMax": "0.000000"
+     },
+     {
+      "Id": "2674582883",
+      "Name": "tp_end",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\tp_end",
+      "GUID": "{0DDC3FC1-8AE8-4F57-AA7C-2988E643CEB3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.986687",
+      "DurationMax": "0.986687",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "133434224",
+        "Language": "SFX",
+        "ShortName": "tp_end.wav",
+        "Path": "SFX\\tp_end_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2618135864",
+      "Name": "tp_start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\tp_start",
+      "GUID": "{2FBAB47C-73BD-4CB3-8812-579302592AD6}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "741913904",
+        "Language": "SFX",
+        "ShortName": "Electricity_Cast_Loopv1.wav",
+        "Path": "SFX\\Electricity_Cast_Loopv1_D79FB2B7.wem"
+       }
+      ]
      },
      {
       "Id": "3479586975",
@@ -366,6 +398,14 @@
         ]
        }
       ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "2540234394",
+      "Name": "tp_cast_volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\tp_cast_volume",
+      "GUID": "{F618B33E-7A76-4152-9BBE-0814A25F5FEA}"
      }
     ],
     "SwitchGroups": [
