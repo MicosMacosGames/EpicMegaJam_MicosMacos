@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\",
+   "SourceFilesRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3731137308",
+    "GUID": "{DE64A31C-A31C-131C-1C1C-1C1C1C1C1C1C}",
+    "Language": "SFX",
+    "Hash": "2826657169",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_03C8D2E5FAEE4A0AA03B758625885646",
+    "ShortName": "SB_03C8D2E5FAEE4A0AA03B758625885646",
+    "Path": "SB_03C8D2E5FAEE4A0AA03B758625885646.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1548782119",
+      "Name": "play_door_opening",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_door_opening",
+      "GUID": "{03C8D2E5-FAEE-4A0A-A03B-758625885646}",
+      "MaxAttenuation": "100.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "5.750000",
+      "DurationMax": "5.750000",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "978827002",
+        "Language": "SFX",
+        "ShortName": "Door_Opening.wav",
+        "Path": "SFX\\Door_Opening_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

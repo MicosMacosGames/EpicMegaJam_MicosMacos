@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1779335	play_fire_loop			\Default Work Unit\Gameplay\play_fire_loop	
+
