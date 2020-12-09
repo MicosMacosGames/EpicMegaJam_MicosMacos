@@ -1365,6 +1365,13 @@
 				<Folder Name="UI" ID="{8FA7A8D7-A80F-4226-A135-BBFEAEF5BA1D}" ShortID="337705916">
 					<ChildrenList>
 						<Sound Name="Button_Hover" ID="{68AB26F4-39F8-442D-97B0-2778AFB0BB24}" ShortID="169037322">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8BDED7E-AAFE-43D5-A733-45FABDC95232}"/>
@@ -1387,6 +1394,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Button_selected" ID="{8BE7714E-93B2-4FEB-8146-801238031779}" ShortID="821096695">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8BDED7E-AAFE-43D5-A733-45FABDC95232}"/>

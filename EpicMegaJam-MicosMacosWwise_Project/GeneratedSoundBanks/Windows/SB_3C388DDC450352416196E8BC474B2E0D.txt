@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1231987938	play_gameplay_music			\Default Work Unit\Music\play_gameplay_music	
+	2121971352	play_death_music			\Default Work Unit\Music\play_death_music	
 	2895168921	play_main_menu_music			\Default Work Unit\Music\play_main_menu_music	
 
 State Group	ID	Name			Wwise Object Path	Notes

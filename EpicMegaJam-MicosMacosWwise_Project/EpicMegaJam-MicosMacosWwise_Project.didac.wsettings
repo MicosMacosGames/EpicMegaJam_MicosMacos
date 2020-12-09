@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{C99BECCC-4CD1-43C4-A7AB-9D02DECC5950}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\UPC University\EpicMegaJam\Music\Provisional\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\UPC University\EpicMegaJam\SFX\"/>
 				<Property Name="Event Action List\{03C8D2E5-FAEE-4A0A-A03B-758625885646}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0DDC3FC1-8AE8-4F57-AA7C-2988E643CEB3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{26A5BF81-A56A-4FBD-AFCB-71D557F0549F}\x64_Expand States" Type="string" Value=""/>
@@ -37,8 +37,9 @@
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
+				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
-				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="jZ6cwN5kY0aJzkAJk+yafA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="1QuO5dr8okKSENjj8b3UeN1bO/8XDnpBs0opqNXmaNQ="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="Interactive Music\x64_{055F1600-62FB-4613-8251-CCB1AB215669} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP2ORj5gFbCVAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
@@ -57,8 +58,10 @@
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{E07810A3-1570-42C7-BEF1-6F00E42BF721}"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
+				<Property Name="Music Transition List\{2A20B47B-33E4-40E5-96D5-67D90995FEDC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{62873252-7708-4489-8AFA-3CFDFC3F0D35}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{6BCAA20C-D132-4F44-90B3-1434E910301D}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{97B9C1CC-DEAD-48F6-8A48-A2ADF19E7A55}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{BC025AED-AE3F-425C-A88D-B69351828A04}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{C2904200-075D-459E-9A6F-34FFADCCAF56}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
