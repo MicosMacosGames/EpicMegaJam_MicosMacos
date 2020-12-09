@@ -6,8 +6,10 @@
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\UPC University\EpicMegaJam\SFX\"/>
 				<Property Name="Event Action List\{03C8D2E5-FAEE-4A0A-A03B-758625885646}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0DDC3FC1-8AE8-4F57-AA7C-2988E643CEB3}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{26A5BF81-A56A-4FBD-AFCB-71D557F0549F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2B538AE3-B2FE-4C37-9281-D4B7CF45730A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2FBAB47C-73BD-4CB3-8812-579302592AD6}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{3942C41F-D8B3-4FA5-BA2F-9F9C8C9BE690}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4D41EA81-B2CA-498C-95C0-422A3D1B3B2F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{508489F5-42AD-46EB-BE35-EA50E4715F33}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{5CFE974A-74BE-42C6-9D74-34E58C1DFDF1}\x64_Expand States" Type="string" Value=""/>
@@ -17,6 +19,7 @@
 				<Property Name="Event Action List\{B40B3A74-C7A6-436D-886E-D3295DFCE262}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E54EBB99-9FAD-4606-81C3-EEF83068074F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E95E99F2-0B45-4935-9EFB-974F140E476F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{EB734953-4F6D-44D3-A5EB-D0FE0FB63172}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{ED1B6780-2DD3-4D71-94EB-8F1D204A5DCA}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F1B7829A-85A2-4F5E-8020-8C88BEF97E76}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
@@ -77,7 +80,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="FdGMqrVAnkGpj16L8K+1Sw=="/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="CblX5Dzj3UKKhn7zRbbEWZM7d46F8FZMsrGdkg2Mq9bP46bcxX0MTqDKlQ0AJ1cF"/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="CblX5Dzj3UKKhn7zRbbEWbzH4kWUhaRIkSXQKQz5NGaTO3eOhfBWTLKxnZINjKvWz+Om3MV9DE6gypUNACdXBQ=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value="DAxN8dOa6kqiZZxAh20FnQ=="/>
