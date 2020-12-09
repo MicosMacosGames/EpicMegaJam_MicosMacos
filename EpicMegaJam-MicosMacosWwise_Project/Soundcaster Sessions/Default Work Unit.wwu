@@ -117,7 +117,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="timer_speed" ID="{2AABDB11-BBA2-4ECE-BB08-7779798D44F3}"/>
-							<Value>4</Value>
+							<Value>1.00392156862745</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">

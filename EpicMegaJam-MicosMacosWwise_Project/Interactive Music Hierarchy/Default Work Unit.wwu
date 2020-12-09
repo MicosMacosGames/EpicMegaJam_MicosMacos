@@ -702,7 +702,7 @@
 				</MusicPlaylistContainer>
 				<MusicSegment Name="timer" ID="{A64CA989-4B73-41DE-B4B7-DB5F019FF64D}" ShortID="436455542">
 					<PropertyList>
-						<Property Name="EndPosition" Type="Real64" Value="13021.8818380744"/>
+						<Property Name="EndPosition" Type="Real64" Value="13581.2363238512"/>
 						<Property Name="PlaybackSpeed" Type="Real64">
 							<RTPCList>
 								<RTPC Name="" ID="{DB895BA4-4344-40D4-8341-3EEAFF260E02}" ShortID="941145275">
@@ -731,6 +731,7 @@
 								</RTPC>
 							</RTPCList>
 						</Property>
+						<Property Name="Tempo" Type="Real64" Value="140"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -772,7 +773,7 @@
 									<ClipList>
 										<MusicClipMidi Name="timer" ID="{9B46D205-AF03-46EF-8665-7610F9716660}">
 											<PropertyList>
-												<Property Name="EndTrimOffset" Type="Real64" Value="11625"/>
+												<Property Name="EndTrimOffset" Type="Real64" Value="9970.73304157556"/>
 											</PropertyList>
 											<MidiSourceRef Name="timer" ID="{01B9534B-F062-45AB-8D07-BB9120E27AF1}"/>
 										</MusicClipMidi>
@@ -786,7 +787,7 @@
 						<MusicCue Name="Exit Cue" ID="{72FDFD20-9894-46B0-B122-00C9FC0A493A}">
 							<PropertyList>
 								<Property Name="CueType" Type="int16" Value="1"/>
-								<Property Name="TimeMs" Type="Real64" Value="11617.067833698"/>
+								<Property Name="TimeMs" Type="Real64" Value="9971.55361050328"/>
 							</PropertyList>
 						</MusicCue>
 					</CueList>
