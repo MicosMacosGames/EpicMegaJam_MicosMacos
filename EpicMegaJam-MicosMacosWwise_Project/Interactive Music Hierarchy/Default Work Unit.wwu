@@ -792,6 +792,105 @@
 						</MusicCue>
 					</CueList>
 				</MusicSegment>
+				<MusicPlaylistContainer Name="you_died_music" ID="{B23525EB-2F08-4805-B9C2-91AB801E1F6E}" ShortID="960195484">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="you_died" ID="{48F9B782-0B32-4132-8568-34504694AC8D}" ShortID="991395215">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="8352.7664399093"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8BDED7E-AAFE-43D5-A733-45FABDC95232}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="you_died" ID="{2A20B47B-33E4-40E5-96D5-67D90995FEDC}" ShortID="738785965">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="you_died" ID="{E5639ADB-EE6B-42AC-89F0-4A2899005EA7}">
+											<Language>SFX</Language>
+											<AudioFile>you_died.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="620625000"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{039E548A-887E-4AEB-8F51-EF448FC19D49}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{92ED526B-7C57-4DDE-9C30-1B6331CF2BE8}">
+											<ClipList>
+												<MusicClip Name="you_died" ID="{26643C57-B4CD-4E1F-9F9F-5B4BE0462D46}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="8352.7664399093"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="you_died" ID="{E5639ADB-EE6B-42AC-89F0-4A2899005EA7}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{C0D97DC5-54A9-42F8-BB82-B1AE11D38A84}"/>
+								<MusicCue Name="Exit Cue" ID="{0CF471A6-DBC8-4558-927D-974A4FBCB46D}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="8352.7664399093"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{C585064D-4D6B-4269-9EE7-7FD8D0915DC3}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{6E0E73EF-B2C6-4613-8B22-5BE1159291BD}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{40912F42-ABB5-43BE-A3F6-1C594381DD94}" ShortID="832024663">
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{C726DFB3-4CFC-401F-A9EE-B9CD8440DA16}" ShortID="611232699">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="you_died" ID="{48F9B782-0B32-4132-8568-34504694AC8D}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

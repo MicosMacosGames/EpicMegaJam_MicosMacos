@@ -16,11 +16,20 @@
     "Id": "3991942870",
     "GUID": "{FF3B5BDD-0E17-417A-B34A-29A8D5E668D4}",
     "Language": "SFX",
-    "Hash": "3383396260",
+    "Hash": "427215715",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
     "IncludedEvents": [
+     {
+      "Id": "2121971352",
+      "Name": "play_death_music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\play_death_music",
+      "GUID": "{8944C4CB-2B03-436C-8D85-ACFAD839B37E}",
+      "DurationType": "OneShot",
+      "DurationMin": "8.352767",
+      "DurationMax": "8.352767"
+     },
      {
       "Id": "1231987938",
       "Name": "play_gameplay_music",
@@ -98,6 +107,14 @@
         "Path": "SFX\\main_menu_loop_9EDFC787.wem"
        }
       ]
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "620625000",
+      "Language": "SFX",
+      "ShortName": "you_died.wav",
+      "Path": "SFX\\you_died_9EDFC787.wem"
      }
     ],
     "StateGroups": [
