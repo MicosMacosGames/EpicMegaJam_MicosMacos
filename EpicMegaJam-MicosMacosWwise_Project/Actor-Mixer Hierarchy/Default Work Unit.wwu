@@ -1246,6 +1246,95 @@
 						</SwitchContainer>
 					</ChildrenList>
 				</Folder>
+				<RandomSequenceContainer Name="Hydraulic_start" ID="{18563A5A-B336-426B-A3C0-E6F74FBCB7BF}" ShortID="951516455">
+					<PropertyList>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8BDED7E-AAFE-43D5-A733-45FABDC95232}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Hydraulic_start" ID="{C993667C-4EBF-443C-97F4-91FD5598BE61}" ShortID="957664907">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8BDED7E-AAFE-43D5-A733-45FABDC95232}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hydraulic_start" ID="{578654D3-5801-4CE8-91DA-F7E46D7FE258}">
+									<Language>SFX</Language>
+									<AudioFile>Hydraulic_start.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="322911085"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hydraulic_start" ID="{578654D3-5801-4CE8-91DA-F7E46D7FE258}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="hydraulic_loop" ID="{1153A580-08D9-4B7F-BA8A-4061FFBC7C8E}" ShortID="694762001">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8BDED7E-AAFE-43D5-A733-45FABDC95232}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="hydraulic_loop" ID="{4A3FC7BC-026F-46DB-9E81-D1938725A79A}">
+									<Language>SFX</Language>
+									<AudioFile>hydraulic_loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="153059413"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="hydraulic_loop" ID="{4A3FC7BC-026F-46DB-9E81-D1938725A79A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="Hydraulic_start" ID="{C993667C-4EBF-443C-97F4-91FD5598BE61}"/>
+						<ItemRef Name="hydraulic_loop" ID="{1153A580-08D9-4B7F-BA8A-4061FFBC7C8E}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<Sound Name="Hydraulic_end" ID="{2FBBBBFA-A3FE-4A60-91F3-0F069042C26A}" ShortID="392609888">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8BDED7E-AAFE-43D5-A733-45FABDC95232}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Hydraulic_end" ID="{CA43E36A-9997-408D-9D0E-EBAC6F55B6F5}">
+							<Language>SFX</Language>
+							<AudioFile>Hydraulic_end.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="983576163"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Hydraulic_end" ID="{CA43E36A-9997-408D-9D0E-EBAC6F55B6F5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

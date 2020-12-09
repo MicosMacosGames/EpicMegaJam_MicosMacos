@@ -161,6 +161,38 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="hydraulic_start" ID="{ED1B6780-2DD3-4D71-94EB-8F1D204A5DCA}">
+							<ChildrenList>
+								<Action Name="" ID="{F48F2665-99C8-4BB4-A921-7128512464B0}" ShortID="779415916">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hydraulic_start" ID="{18563A5A-B336-426B-A3C0-E6F74FBCB7BF}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="hydraulic_end" ID="{7612AF60-D429-49A6-8BC6-D666241CE77D}">
+							<ChildrenList>
+								<Action Name="" ID="{2C755576-CFB4-4564-933E-34435A62C29C}" ShortID="330171664">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hydraulic_end" ID="{2FBBBBFA-A3FE-4A60-91F3-0F069042C26A}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2FDCE042-1CD9-487D-A6D3-89292DA893FC}" ShortID="231894129">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hydraulic_start" ID="{18563A5A-B336-426B-A3C0-E6F74FBCB7BF}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
