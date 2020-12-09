@@ -16,7 +16,7 @@
     "Id": "3991942870",
     "GUID": "{FF3B5BDD-0E17-417A-B34A-29A8D5E668D4}",
     "Language": "SFX",
-    "Hash": "427215715",
+    "Hash": "704081755",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
@@ -111,10 +111,10 @@
     ],
     "IncludedMemoryFiles": [
      {
-      "Id": "620625000",
+      "Id": "599798573",
       "Language": "SFX",
-      "ShortName": "you_died.wav",
-      "Path": "SFX\\you_died_9EDFC787.wem"
+      "ShortName": "you_died_short_ver.wav",
+      "Path": "SFX\\you_died_short_ver_9EDFC787.wem"
      }
     ],
     "StateGroups": [

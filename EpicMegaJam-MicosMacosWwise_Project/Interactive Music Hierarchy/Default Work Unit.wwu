@@ -815,23 +815,23 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="you_died" ID="{2A20B47B-33E4-40E5-96D5-67D90995FEDC}" ShortID="738785965">
+								<MusicTrack Name="you_died_short_ver" ID="{97B9C1CC-DEAD-48F6-8A48-A2ADF19E7A55}" ShortID="587910409">
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="you_died" ID="{E5639ADB-EE6B-42AC-89F0-4A2899005EA7}">
+										<AudioFileSource Name="you_died_short_ver" ID="{A464A130-0FDC-4166-88DE-FF19B137DC77}">
 											<Language>SFX</Language>
-											<AudioFile>you_died.wav</AudioFile>
+											<AudioFile>you_died_short_ver.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="620625000"/>
+												<MediaID ID="599798573"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<TransitionList>
-										<MusicTransition Name="Root" ID="{039E548A-887E-4AEB-8F51-EF448FC19D49}">
+										<MusicTransition Name="Root" ID="{911E201C-639A-4DBB-98D6-DAFAF06E803D}">
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
@@ -839,15 +839,15 @@
 										</MusicTransition>
 									</TransitionList>
 									<SequenceList>
-										<MusicTrackSequence Name="" ID="{92ED526B-7C57-4DDE-9C30-1B6331CF2BE8}">
+										<MusicTrackSequence Name="" ID="{4FA66F4B-8FA2-4F07-ABF5-ED2E8D028F6A}">
 											<ClipList>
-												<MusicClip Name="you_died" ID="{26643C57-B4CD-4E1F-9F9F-5B4BE0462D46}">
+												<MusicClip Name="you_died_short_ver" ID="{84111E44-447D-4B2F-B63B-B33A239B146B}">
 													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="8352.7664399093"/>
+														<Property Name="EndTrimOffset" Type="Real64" Value="4350.09070294785"/>
 														<Property Name="FadeInMode" Type="int16" Value="0"/>
 														<Property Name="FadeOutMode" Type="int16" Value="0"/>
 													</PropertyList>
-													<AudioSourceRef Name="you_died" ID="{E5639ADB-EE6B-42AC-89F0-4A2899005EA7}"/>
+													<AudioSourceRef Name="you_died_short_ver" ID="{A464A130-0FDC-4166-88DE-FF19B137DC77}"/>
 												</MusicClip>
 											</ClipList>
 										</MusicTrackSequence>
