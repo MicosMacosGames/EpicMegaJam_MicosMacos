@@ -2,6 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1779335	play_fire_loop			\Default Work Unit\Gameplay\play_fire_loop	
 	139741690	placeholder_lucho			\Default Work Unit\Gameplay\placeholder_lucho	
 	452547817	stop_all			\Default Work Unit\Gameplay\stop_all	
+	710060161	play_crank_end			\Default Work Unit\Gameplay\play_crank_end	
 	828587345	play_door_closed			\Default Work Unit\Gameplay\play_door_closed	
 	1026169559	play_ambience_loop			\Default Work Unit\Gameplay\play_ambience_loop	
 	1548782119	play_door_opening			\Default Work Unit\Gameplay\play_door_opening	
@@ -14,6 +15,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3169823511	play_button_locked			\Default Work Unit\Gameplay\play_button_locked	
 	3227945226	hydraulic_end			\Default Work Unit\Gameplay\hydraulic_end	
 	3479586975	walk_step			\Default Work Unit\Gameplay\walk_step	
+	3894563186	play_crank_start			\Default Work Unit\Gameplay\play_crank_start	
 	3969391097	hydraulic_start			\Default Work Unit\Gameplay\hydraulic_start	
 
 Switch Group	ID	Name			Wwise Object Path	Notes

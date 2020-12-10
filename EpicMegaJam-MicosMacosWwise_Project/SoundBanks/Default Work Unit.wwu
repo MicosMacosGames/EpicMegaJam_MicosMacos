@@ -10,6 +10,7 @@
 					</PropertyList>
 					<ObjectInclusionList>
 						<ObjectRef Name="placeholder_lucho" ID="{61465E14-BD80-4144-A7B2-A0A50CC24678}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_crank_end" ID="{9E6B3162-18C8-4153-8FF5-2500985D859F}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_button_locked" ID="{5CFE974A-74BE-42C6-9D74-34E58C1DFDF1}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_ambience_loop" ID="{B40B3A74-C7A6-436D-886E-D3295DFCE262}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_door_closed" ID="{EB734953-4F6D-44D3-A5EB-D0FE0FB63172}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
@@ -21,6 +22,7 @@
 						<ObjectRef Name="play_button_active" ID="{2B538AE3-B2FE-4C37-9281-D4B7CF45730A}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="tp_start" ID="{2FBAB47C-73BD-4CB3-8812-579302592AD6}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="hydraulic_start" ID="{ED1B6780-2DD3-4D71-94EB-8F1D204A5DCA}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_crank_start" ID="{F02C19FF-0592-4E57-A268-9D7B37A8390F}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="tp_end" ID="{0DDC3FC1-8AE8-4F57-AA7C-2988E643CEB3}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="stop_all" ID="{F1B7829A-85A2-4F5E-8020-8C88BEF97E76}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="button_selected" ID="{3942C41F-D8B3-4FA5-BA2F-9F9C8C9BE690}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>

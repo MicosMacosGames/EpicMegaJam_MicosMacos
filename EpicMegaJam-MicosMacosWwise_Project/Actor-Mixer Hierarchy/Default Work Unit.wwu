@@ -1424,6 +1424,69 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="crank" ID="{B8BA1CA2-DCAE-4A40-A2A2-B29817FD60C7}" ShortID="962286273">
+					<ChildrenList>
+						<Sound Name="cranking_crank_end" ID="{18D9A6CD-C13B-4521-84A4-636B3A1C6A97}" ShortID="906577227">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8BDED7E-AAFE-43D5-A733-45FABDC95232}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cranking_crank_end" ID="{3DF46922-8042-42AB-9257-D00FB88537EB}">
+									<Language>SFX</Language>
+									<AudioFile>cranking_crank_end.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="519781250"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="cranking_crank_end" ID="{3DF46922-8042-42AB-9257-D00FB88537EB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="cranking_crank_loop" ID="{5094EF4F-1DA4-4D45-9587-F1FED3D4DB49}" ShortID="182041519">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8BDED7E-AAFE-43D5-A733-45FABDC95232}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cranking_crank_loop" ID="{8F4BEB5C-E257-4DB3-9157-802801FAF67A}">
+									<Language>SFX</Language>
+									<AudioFile>cranking_crank_loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="215987025"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="cranking_crank_loop" ID="{8F4BEB5C-E257-4DB3-9157-802801FAF67A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

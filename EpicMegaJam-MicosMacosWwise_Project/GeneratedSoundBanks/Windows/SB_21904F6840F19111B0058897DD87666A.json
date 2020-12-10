@@ -16,7 +16,7 @@
     "Id": "2626518337",
     "GUID": "{9C8D7D41-7D41-1D41-4141-414141414141}",
     "Language": "SFX",
-    "Hash": "942397646",
+    "Hash": "252801945",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_21904F6840F19111B0058897DD87666A",
     "ShortName": "SB_21904F6840F19111B0058897DD87666A",
     "Path": "SB_21904F6840F19111B0058897DD87666A.bnk",
@@ -198,6 +198,38 @@
         "Language": "SFX",
         "ShortName": "button_stuck.wav",
         "Path": "SFX\\button_stuck_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "710060161",
+      "Name": "play_crank_end",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_crank_end",
+      "GUID": "{9E6B3162-18C8-4153-8FF5-2500985D859F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.839500",
+      "DurationMax": "0.839500",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "519781250",
+        "Language": "SFX",
+        "ShortName": "cranking_crank_end.wav",
+        "Path": "SFX\\cranking_crank_end_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3894563186",
+      "Name": "play_crank_start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_crank_start",
+      "GUID": "{F02C19FF-0592-4E57-A268-9D7B37A8390F}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "215987025",
+        "Language": "SFX",
+        "ShortName": "cranking_crank_loop.wav",
+        "Path": "SFX\\cranking_crank_loop_D79FB2B7.wem"
        }
       ]
      },
