@@ -38,6 +38,31 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="play_timer" ID="{639B64C9-2960-4BB4-B529-244C5EAFE5D9}">
+							<ChildrenList>
+								<Action Name="" ID="{AF8FF538-E492-43CC-B857-9A67E5B5934C}" ShortID="376268798">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="timer" ID="{A64CA989-4B73-41DE-B4B7-DB5F019FF64D}" WorkUnitID="{67C5A7F8-F225-4CC5-A082-303AC6F7F351}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="stop_timer" ID="{9F99DFC1-EDAD-4663-9AB2-A7625BCE49CB}">
+							<ChildrenList>
+								<Action Name="" ID="{82654A28-366E-47ED-86EC-16A9F5DA24F2}" ShortID="146942253">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="timer" ID="{A64CA989-4B73-41DE-B4B7-DB5F019FF64D}" WorkUnitID="{67C5A7F8-F225-4CC5-A082-303AC6F7F351}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Gameplay" ID="{E457B909-E33C-42DD-8A86-7EF345B6C459}" ShortID="669391072">
@@ -253,6 +278,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Electric- Light- Ficker- Spark- Static_03" ID="{D4D2F7A5-85D8-4F75-AE6B-75CFD2538A97}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="play_anomaly_loop" ID="{E2FD1702-618D-4237-B20E-9562B6EF025F}">
+							<ChildrenList>
+								<Action Name="" ID="{53765409-9F07-4210-8DDD-6937AE9222BA}" ShortID="927501311">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="anomaly_Loop" ID="{39C2C6A9-16CB-4390-BE52-3CFE1C2F7863}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

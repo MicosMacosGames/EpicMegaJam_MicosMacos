@@ -16,7 +16,7 @@
     "Id": "1031843195",
     "GUID": "{3D80AD7B-AD7B-1D7B-7B7B-7B7B7B7B7B7B}",
     "Language": "SFX",
-    "Hash": "4045537470",
+    "Hash": "164133358",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_137DF81943F3D3CAE2FA10B12F60A66E",
     "ShortName": "SB_137DF81943F3D3CAE2FA10B12F60A66E",
     "Path": "SB_137DF81943F3D3CAE2FA10B12F60A66E.bnk",
@@ -166,6 +166,21 @@
         "Language": "SFX",
         "ShortName": "old_building_ambience_loop.wav",
         "Path": "SFX\\old_building_ambience_loop_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4129662374",
+      "Name": "play_anomaly_loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_anomaly_loop",
+      "GUID": "{E2FD1702-618D-4237-B20E-9562B6EF025F}",
+      "DurationType": "Infinite",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "915725187",
+        "Language": "SFX",
+        "ShortName": "anomaly_Loop.wav",
+        "Path": "SFX\\anomaly_Loop_D79FB2B7.wem"
        }
       ]
      },

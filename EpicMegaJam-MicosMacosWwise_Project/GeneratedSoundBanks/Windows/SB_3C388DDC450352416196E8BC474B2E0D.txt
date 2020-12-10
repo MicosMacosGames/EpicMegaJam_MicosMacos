@@ -2,6 +2,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	1231987938	play_gameplay_music			\Default Work Unit\Music\play_gameplay_music	
 	2121971352	play_death_music			\Default Work Unit\Music\play_death_music	
 	2895168921	play_main_menu_music			\Default Work Unit\Music\play_main_menu_music	
+	3090597779	stop_timer			\Default Work Unit\Music\stop_timer	
+	4169444829	play_timer			\Default Work Unit\Music\play_timer	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	3695383560	lvl_dimension			\Default Work Unit\lvl_dimension	
@@ -10,4 +12,7 @@ State	ID	Name	State Group			Notes
 	748895195	None	lvl_dimension			
 	1627031569	past	lvl_dimension			
 	3524519058	present	lvl_dimension			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2987429348	timer_speed			\Default Work Unit\timer_speed	
 
