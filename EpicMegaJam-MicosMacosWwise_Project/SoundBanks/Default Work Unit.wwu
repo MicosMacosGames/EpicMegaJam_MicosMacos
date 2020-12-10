@@ -11,6 +11,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="placeholder_lucho" ID="{61465E14-BD80-4144-A7B2-A0A50CC24678}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_crank_end" ID="{9E6B3162-18C8-4153-8FF5-2500985D859F}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_anomaly_loop" ID="{E2FD1702-618D-4237-B20E-9562B6EF025F}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_button_locked" ID="{5CFE974A-74BE-42C6-9D74-34E58C1DFDF1}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_ambience_loop" ID="{B40B3A74-C7A6-436D-886E-D3295DFCE262}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_door_closed" ID="{EB734953-4F6D-44D3-A5EB-D0FE0FB63172}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>

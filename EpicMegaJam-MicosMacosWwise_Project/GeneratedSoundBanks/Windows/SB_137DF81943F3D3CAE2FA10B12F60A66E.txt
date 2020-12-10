@@ -18,6 +18,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3773288514	play_electricity_loop			\Default Work Unit\Gameplay\play_electricity_loop	
 	3894563186	play_crank_start			\Default Work Unit\Gameplay\play_crank_start	
 	3969391097	hydraulic_start			\Default Work Unit\Gameplay\hydraulic_start	
+	4129662374	play_anomaly_loop			\Default Work Unit\Gameplay\play_anomaly_loop	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	1834394558	surface			\Default Work Unit\surface	
@@ -43,5 +44,6 @@ Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	
 	661135958	Electric- Light- Ficker- Spark- Static_03	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Electric- Light- Ficker- Spark- Static_03_D79FB2B7.wem	661135958.wem	\Actor-Mixer Hierarchy\Default Work Unit\Electric- Light- Ficker- Spark- Static_03	
 	672518626	Fire_Loop_2	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Fire_Loop_2_D79FB2B7.wem	672518626.wem	\Actor-Mixer Hierarchy\Default Work Unit\Fire_Sound\Fire_Loop_2	
 	900857646	old_building_ambience_loop	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\old_building_ambience_loop_D79FB2B7.wem	900857646.wem	\Actor-Mixer Hierarchy\Default Work Unit\old_building_ambience_loop	
+	915725187	anomaly_Loop	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\anomaly_Loop_D79FB2B7.wem	915725187.wem	\Actor-Mixer Hierarchy\Default Work Unit\anomaly_Loop	
 	978827002	Door_Opening	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Door_Opening_10C4C929.wem	978827002.wem	\Actor-Mixer Hierarchy\Default Work Unit\Door_Opening	
 
