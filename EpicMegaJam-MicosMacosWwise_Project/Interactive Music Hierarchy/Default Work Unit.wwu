@@ -6,13 +6,13 @@
 				<MusicSwitchContainer Name="gameplay_music" ID="{C2904200-075D-459E-9A6F-34FFADCCAF56}" ShortID="749327724">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="4"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-						<Property Name="Tempo" Type="Real64" Value="90"/>
-						<Property Name="Volume" Type="Real64">
+						<Property Name="OutputBusVolume" Type="Real64">
 							<ValueList>
 								<Value>-18</Value>
 							</ValueList>
 						</Property>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="Tempo" Type="Real64" Value="90"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
