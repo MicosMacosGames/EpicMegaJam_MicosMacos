@@ -294,6 +294,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="stop_crank" ID="{98B67B89-99CA-4904-8DDE-E91E55C5BA78}">
+							<ChildrenList>
+								<Action Name="" ID="{A078336D-3DF1-490D-B7BF-E63E0333D849}" ShortID="1042828229">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="cranking_crank_loop" ID="{5094EF4F-1DA4-4D45-9587-F1FED3D4DB49}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{45E2C7BC-8594-48A4-9125-D0290CF93466}" ShortID="988169520">

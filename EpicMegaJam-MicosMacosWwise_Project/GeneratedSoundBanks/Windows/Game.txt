@@ -14,6 +14,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3169823511	play_button_locked			\Default Work Unit\Gameplay\play_button_locked	
 	3227945226	hydraulic_end			\Default Work Unit\Gameplay\hydraulic_end	
 	3479586975	walk_step			\Default Work Unit\Gameplay\walk_step	
+	3651103193	stop_crank			\Default Work Unit\Gameplay\stop_crank	
 	3773288514	play_electricity_loop			\Default Work Unit\Gameplay\play_electricity_loop	
 	3894563186	play_crank_start			\Default Work Unit\Gameplay\play_crank_start	
 	3969391097	hydraulic_start			\Default Work Unit\Gameplay\hydraulic_start	
