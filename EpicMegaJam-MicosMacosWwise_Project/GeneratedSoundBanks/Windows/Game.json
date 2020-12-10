@@ -16,7 +16,7 @@
     "Id": "702482391",
     "GUID": "{E58E0BD5-FCDA-42A2-9210-D8E3F1BDD478}",
     "Language": "SFX",
-    "Hash": "3004434460",
+    "Hash": "3565757195",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Game",
     "ShortName": "Game",
     "Path": "Game.bnk",
@@ -78,13 +78,15 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\hydraulic_start",
       "GUID": "{ED1B6780-2DD3-4D71-94EB-8F1D204A5DCA}",
       "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
+      "ReferencedStreamedFiles": [
        {
         "Id": "153059413",
         "Language": "SFX",
         "ShortName": "hydraulic_loop.wav",
         "Path": "SFX\\hydraulic_loop_D79FB2B7.wem"
-       },
+       }
+      ],
+      "IncludedMemoryFiles": [
        {
         "Id": "322911085",
         "Language": "SFX",
@@ -158,7 +160,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_ambience_loop",
       "GUID": "{B40B3A74-C7A6-436D-886E-D3295DFCE262}",
       "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
+      "ReferencedStreamedFiles": [
        {
         "Id": "900857646",
         "Language": "SFX",
@@ -258,12 +260,27 @@
       "DurationType": "OneShot",
       "DurationMin": "5.750000",
       "DurationMax": "5.750000",
-      "IncludedMemoryFiles": [
+      "ReferencedStreamedFiles": [
        {
         "Id": "978827002",
         "Language": "SFX",
         "ShortName": "Door_Opening.wav",
         "Path": "SFX\\Door_Opening_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3773288514",
+      "Name": "play_electricity_loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_electricity_loop",
+      "GUID": "{AD46C936-F678-4554-93C9-4AFB23B0D681}",
+      "DurationType": "Infinite",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "661135958",
+        "Language": "SFX",
+        "ShortName": "Electric- Light- Ficker- Spark- Static_03.wav",
+        "Path": "SFX\\Electric- Light- Ficker- Spark- Static_03_D79FB2B7.wem"
        }
       ]
      },
@@ -274,7 +291,7 @@
       "GUID": "{E54EBB99-9FAD-4606-81C3-EEF83068074F}",
       "MaxAttenuation": "100.000000",
       "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
+      "ReferencedStreamedFiles": [
        {
         "Id": "9237805",
         "Language": "SFX",
