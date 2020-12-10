@@ -2,6 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1779335	play_fire_loop			\Default Work Unit\Gameplay\play_fire_loop	
 	139741690	placeholder_lucho			\Default Work Unit\Gameplay\placeholder_lucho	
 	452547817	stop_all			\Default Work Unit\Gameplay\stop_all	
+	710060161	play_crank_end			\Default Work Unit\Gameplay\play_crank_end	
 	828587345	play_door_closed			\Default Work Unit\Gameplay\play_door_closed	
 	1026169559	play_ambience_loop			\Default Work Unit\Gameplay\play_ambience_loop	
 	1548782119	play_door_opening			\Default Work Unit\Gameplay\play_door_opening	
@@ -14,6 +15,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	3169823511	play_button_locked			\Default Work Unit\Gameplay\play_button_locked	
 	3227945226	hydraulic_end			\Default Work Unit\Gameplay\hydraulic_end	
 	3479586975	walk_step			\Default Work Unit\Gameplay\walk_step	
+	3773288514	play_electricity_loop			\Default Work Unit\Gameplay\play_electricity_loop	
+	3894563186	play_crank_start			\Default Work Unit\Gameplay\play_crank_start	
 	3969391097	hydraulic_start			\Default Work Unit\Gameplay\hydraulic_start	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -35,13 +38,12 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	2540234394	tp_cast_volume			\Default Work Unit\tp_cast_volume	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	9237805	Fire_Loop_1	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Fire_Loop_1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire_Sound\Fire_Loop_1		1738816
 	10101463	Walk_10	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Walk_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerMovement\Walking_Step\tile_step\Walk_10		38300
 	38457912	Walk_11	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Walk_11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerMovement\Walking_Step\tile_step\Walk_11		30236
 	56870491	Walk_6	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Walk_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerMovement\Walking_Step\tile_step\Walk_6		31614
 	115517585	Walking_Metal_2	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Walking_Metal_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerMovement\Walking_Step\metal_step\Walking_Metal_2		14342
 	133434224	tp_end	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\tp_end_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teleport\tp_end		189508
-	153059413	hydraulic_loop	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\hydraulic_loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hydraulic_start\hydraulic_loop		139512
+	215987025	cranking_crank_loop	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\cranking_crank_loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\crank\cranking_crank_loop		200352
 	254417195	Walk_13	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Walk_13_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerMovement\Walking_Step\tile_step\Walk_13		52976
 	265711364	landing_on_tile	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\landing_on_tile_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerMovement\Jump_Fall\landing_on_tile		35338
 	268996975	placeholder_lucho	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\placeholder_lucho_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder_lucho		197440
@@ -49,11 +51,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	300417203	Walk_3	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Walk_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerMovement\Walking_Step\tile_step\Walk_3		27174
 	322911085	Hydraulic_start	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Hydraulic_start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hydraulic_start\Hydraulic_start		61000
 	441591980	Walking_Metal_6	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Walking_Metal_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerMovement\Walking_Step\metal_step\Walking_Metal_6		39014
+	519781250	cranking_crank_end	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\cranking_crank_end_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\crank\cranking_crank_end		161248
 	557567192	button_stuck	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\button_stuck_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Buttons&levers\button_stuck		49640
 	629120973	Walking_Metal_1	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Walking_Metal_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerMovement\Walking_Step\metal_step\Walking_Metal_1		51226
 	657320189	Walk_12	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Walk_12_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerMovement\Walking_Step\tile_step\Walk_12		44258
 	664161433	Walk_2	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Walk_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerMovement\Walking_Step\tile_step\Walk_2		33998
-	672518626	Fire_Loop_2	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Fire_Loop_2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fire_Sound\Fire_Loop_2		1759296
 	675426724	Button_selected	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Button_selected_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button_selected		705664
 	697657336	Walking_Metal_5	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Walking_Metal_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerMovement\Walking_Step\metal_step\Walking_Metal_5		34522
 	741913904	Electricity_Cast_Loopv1	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Electricity_Cast_Loopv1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teleport\Electricity_Cast_Loopv1		236036
@@ -61,17 +63,23 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	753882570	Door_Closed	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Door_Closed_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door_Closed		343628
 	787042566	Walk_8	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Walk_8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerMovement\Walking_Step\tile_step\Walk_8		20838
 	880564227	Walk_5	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Walk_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerMovement\Walking_Step\tile_step\Walk_5		22734
-	900857646	old_building_ambience_loop	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\old_building_ambience_loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\old_building_ambience_loop		623344
 	901390688	Walk_1	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Walk_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerMovement\Walking_Step\tile_step\Walk_1		29604
 	903959091	Walking_Metal_9	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Walking_Metal_9_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerMovement\Walking_Step\metal_step\Walking_Metal_9		27742
 	913928112	Button_Hover	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Button_Hover_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Button_Hover		24632
 	933543172	Walk_9	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Walk_9_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerMovement\Walking_Step\tile_step\Walk_9		20654
 	934539498	Walk_4	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Walk_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerMovement\Walking_Step\tile_step\Walk_4		28016
-	978827002	Door_Opening	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Door_Opening_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door_Opening		1104064
 	980064745	button_press	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\button_press_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Buttons&levers\button_press		31678
 	983576163	Hydraulic_end	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Hydraulic_end_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hydraulic_end		154532
 	991928093	Walking_Metal_7	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Walking_Metal_7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerMovement\Walking_Step\metal_step\Walking_Metal_7		39180
 	1043887779	Walking_Metal_4	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Walking_Metal_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerMovement\Walking_Step\metal_step\Walking_Metal_4		20380
 	1050217984	Walking_Metal_8	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Walking_Metal_8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerMovement\Walking_Step\metal_step\Walking_Metal_8		38270
 	1070978154	landing_on_metal	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\landing_on_metal_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerMovement\Jump_Fall\landing_on_metal		121180
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	9237805	Fire_Loop_1	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Fire_Loop_1_D79FB2B7.wem	9237805.wem	\Actor-Mixer Hierarchy\Default Work Unit\Fire_Sound\Fire_Loop_1	
+	153059413	hydraulic_loop	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\hydraulic_loop_D79FB2B7.wem	153059413.wem	\Actor-Mixer Hierarchy\Default Work Unit\Hydraulic_start\hydraulic_loop	
+	661135958	Electric- Light- Ficker- Spark- Static_03	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Electric- Light- Ficker- Spark- Static_03_D79FB2B7.wem	661135958.wem	\Actor-Mixer Hierarchy\Default Work Unit\Electric- Light- Ficker- Spark- Static_03	
+	672518626	Fire_Loop_2	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Fire_Loop_2_D79FB2B7.wem	672518626.wem	\Actor-Mixer Hierarchy\Default Work Unit\Fire_Sound\Fire_Loop_2	
+	900857646	old_building_ambience_loop	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\old_building_ambience_loop_D79FB2B7.wem	900857646.wem	\Actor-Mixer Hierarchy\Default Work Unit\old_building_ambience_loop	
+	978827002	Door_Opening	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Door_Opening_10C4C929.wem	978827002.wem	\Actor-Mixer Hierarchy\Default Work Unit\Door_Opening	
 

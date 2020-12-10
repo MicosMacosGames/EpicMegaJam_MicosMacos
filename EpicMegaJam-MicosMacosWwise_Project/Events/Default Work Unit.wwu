@@ -215,6 +215,49 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="play_crank_start" ID="{F02C19FF-0592-4E57-A268-9D7B37A8390F}">
+							<ChildrenList>
+								<Action Name="" ID="{0C493A55-1248-4F37-910D-092644A66048}" ShortID="9259124">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="cranking_crank_loop" ID="{5094EF4F-1DA4-4D45-9587-F1FED3D4DB49}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="play_crank_end" ID="{9E6B3162-18C8-4153-8FF5-2500985D859F}">
+							<ChildrenList>
+								<Action Name="" ID="{0591AD7E-FC40-46AB-B7B8-0C81512801FE}" ShortID="297546326">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="cranking_crank_end" ID="{18D9A6CD-C13B-4521-84A4-636B3A1C6A97}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8D439613-1B41-4D03-8A39-827056D3C205}" ShortID="605254156">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="cranking_crank_loop" ID="{5094EF4F-1DA4-4D45-9587-F1FED3D4DB49}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="play_electricity_loop" ID="{AD46C936-F678-4554-93C9-4AFB23B0D681}">
+							<ChildrenList>
+								<Action Name="" ID="{F9E448B8-06EC-4C26-8B65-2D07D30032BD}" ShortID="308691964">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Electric- Light- Ficker- Spark- Static_03" ID="{D4D2F7A5-85D8-4F75-AE6B-75CFD2538A97}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{45E2C7BC-8594-48A4-9125-D0290CF93466}" ShortID="988169520">

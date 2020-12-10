@@ -61,6 +61,14 @@
 							<ObjectRef Name="play_ambience_loop" ID="{B40B3A74-C7A6-436D-886E-D3295DFCE262}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}"/>
 							<Position X="4" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="play_crank_start" ID="{F02C19FF-0592-4E57-A268-9D7B37A8390F}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="play_crank_end" ID="{9E6B3162-18C8-4153-8FF5-2500985D859F}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}"/>
+							<Position X="5" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>

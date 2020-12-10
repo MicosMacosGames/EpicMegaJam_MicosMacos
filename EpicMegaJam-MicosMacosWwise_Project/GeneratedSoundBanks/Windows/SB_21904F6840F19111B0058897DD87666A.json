@@ -16,7 +16,7 @@
     "Id": "2626518337",
     "GUID": "{9C8D7D41-7D41-1D41-4141-414141414141}",
     "Language": "SFX",
-    "Hash": "942397646",
+    "Hash": "2385210988",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_21904F6840F19111B0058897DD87666A",
     "ShortName": "SB_21904F6840F19111B0058897DD87666A",
     "Path": "SB_21904F6840F19111B0058897DD87666A.bnk",
@@ -78,13 +78,15 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\hydraulic_start",
       "GUID": "{ED1B6780-2DD3-4D71-94EB-8F1D204A5DCA}",
       "DurationType": "Infinite",
-      "ExcludedMemoryFiles": [
+      "ReferencedStreamedFiles": [
        {
         "Id": "153059413",
         "Language": "SFX",
         "ShortName": "hydraulic_loop.wav",
         "Path": "SFX\\hydraulic_loop_D79FB2B7.wem"
-       },
+       }
+      ],
+      "ExcludedMemoryFiles": [
        {
         "Id": "322911085",
         "Language": "SFX",
@@ -158,7 +160,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_ambience_loop",
       "GUID": "{B40B3A74-C7A6-436D-886E-D3295DFCE262}",
       "DurationType": "Infinite",
-      "ExcludedMemoryFiles": [
+      "ReferencedStreamedFiles": [
        {
         "Id": "900857646",
         "Language": "SFX",
@@ -202,6 +204,38 @@
       ]
      },
      {
+      "Id": "710060161",
+      "Name": "play_crank_end",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_crank_end",
+      "GUID": "{9E6B3162-18C8-4153-8FF5-2500985D859F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.839500",
+      "DurationMax": "0.839500",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "519781250",
+        "Language": "SFX",
+        "ShortName": "cranking_crank_end.wav",
+        "Path": "SFX\\cranking_crank_end_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3894563186",
+      "Name": "play_crank_start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_crank_start",
+      "GUID": "{F02C19FF-0592-4E57-A268-9D7B37A8390F}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "215987025",
+        "Language": "SFX",
+        "ShortName": "cranking_crank_loop.wav",
+        "Path": "SFX\\cranking_crank_loop_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
       "Id": "828587345",
       "Name": "play_door_closed",
       "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_door_closed",
@@ -226,12 +260,27 @@
       "DurationType": "OneShot",
       "DurationMin": "5.750000",
       "DurationMax": "5.750000",
-      "ExcludedMemoryFiles": [
+      "ReferencedStreamedFiles": [
        {
         "Id": "978827002",
         "Language": "SFX",
         "ShortName": "Door_Opening.wav",
         "Path": "SFX\\Door_Opening_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3773288514",
+      "Name": "play_electricity_loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_electricity_loop",
+      "GUID": "{AD46C936-F678-4554-93C9-4AFB23B0D681}",
+      "DurationType": "Infinite",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "661135958",
+        "Language": "SFX",
+        "ShortName": "Electric- Light- Ficker- Spark- Static_03.wav",
+        "Path": "SFX\\Electric- Light- Ficker- Spark- Static_03_D79FB2B7.wem"
        }
       ]
      },
@@ -242,7 +291,7 @@
       "GUID": "{E54EBB99-9FAD-4606-81C3-EEF83068074F}",
       "MaxAttenuation": "100.000000",
       "DurationType": "Infinite",
-      "ExcludedMemoryFiles": [
+      "ReferencedStreamedFiles": [
        {
         "Id": "9237805",
         "Language": "SFX",
