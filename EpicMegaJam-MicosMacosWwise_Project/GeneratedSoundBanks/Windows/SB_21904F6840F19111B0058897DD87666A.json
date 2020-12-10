@@ -16,11 +16,83 @@
     "Id": "2626518337",
     "GUID": "{9C8D7D41-7D41-1D41-4141-414141414141}",
     "Language": "SFX",
-    "Hash": "2559103800",
+    "Hash": "942397646",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_21904F6840F19111B0058897DD87666A",
     "ShortName": "SB_21904F6840F19111B0058897DD87666A",
     "Path": "SB_21904F6840F19111B0058897DD87666A.bnk",
     "IncludedEvents": [
+     {
+      "Id": "1701177942",
+      "Name": "button_hover",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\button_hover",
+      "GUID": "{26A5BF81-A56A-4FBD-AFCB-71D557F0549F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.127958",
+      "DurationMax": "0.127958",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "913928112",
+        "Language": "SFX",
+        "ShortName": "Button_Hover.wav",
+        "Path": "SFX\\Button_Hover_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3153326883",
+      "Name": "button_selected",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\button_selected",
+      "GUID": "{3942C41F-D8B3-4FA5-BA2F-9F9C8C9BE690}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.000000",
+      "DurationMax": "4.000000",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "675426724",
+        "Language": "SFX",
+        "ShortName": "Button_selected.wav",
+        "Path": "SFX\\Button_selected_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3227945226",
+      "Name": "hydraulic_end",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\hydraulic_end",
+      "GUID": "{7612AF60-D429-49A6-8BC6-D666241CE77D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.875669",
+      "DurationMax": "0.875669",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "983576163",
+        "Language": "SFX",
+        "ShortName": "Hydraulic_end.wav",
+        "Path": "SFX\\Hydraulic_end_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3969391097",
+      "Name": "hydraulic_start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\hydraulic_start",
+      "GUID": "{ED1B6780-2DD3-4D71-94EB-8F1D204A5DCA}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "153059413",
+        "Language": "SFX",
+        "ShortName": "hydraulic_loop.wav",
+        "Path": "SFX\\hydraulic_loop_D79FB2B7.wem"
+       },
+       {
+        "Id": "322911085",
+        "Language": "SFX",
+        "ShortName": "Hydraulic_start.wav",
+        "Path": "SFX\\Hydraulic_start_10C4C929.wem"
+       }
+      ]
+     },
      {
       "Id": "2401821937",
       "Name": "land_jump",
@@ -101,8 +173,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_button_active",
       "GUID": "{2B538AE3-B2FE-4C37-9281-D4B7CF45730A}",
       "DurationType": "OneShot",
-      "DurationMin": "0.358435",
-      "DurationMax": "0.358435",
+      "DurationMin": "0.379749",
+      "DurationMax": "0.379749",
       "ExcludedMemoryFiles": [
        {
         "Id": "980064745",
@@ -130,11 +202,27 @@
       ]
      },
      {
+      "Id": "828587345",
+      "Name": "play_door_closed",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_door_closed",
+      "GUID": "{EB734953-4F6D-44D3-A5EB-D0FE0FB63172}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.947642",
+      "DurationMax": "1.947642",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "753882570",
+        "Language": "SFX",
+        "ShortName": "Door_Closed.wav",
+        "Path": "SFX\\Door_Closed_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "1548782119",
       "Name": "play_door_opening",
       "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_door_opening",
       "GUID": "{03C8D2E5-FAEE-4A0A-A03B-758625885646}",
-      "MaxAttenuation": "100.000000",
       "DurationType": "OneShot",
       "DurationMin": "5.750000",
       "DurationMax": "5.750000",

@@ -170,7 +170,13 @@
 				</RandomSequenceContainer>
 				<Sound Name="Door_Opening" ID="{0FA8DC23-F0DA-4CD6-95B5-FB64E02304F5}" ShortID="966950651">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -414,6 +420,11 @@
 						<Sound Name="button_stuck" ID="{D43A8671-33BD-4CBD-89C4-A2FA94EA1A77}" ShortID="549000793">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1238,6 +1249,179 @@
 								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
+					</ChildrenList>
+				</Folder>
+				<RandomSequenceContainer Name="Hydraulic_start" ID="{18563A5A-B336-426B-A3C0-E6F74FBCB7BF}" ShortID="951516455">
+					<PropertyList>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8BDED7E-AAFE-43D5-A733-45FABDC95232}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Hydraulic_start" ID="{C993667C-4EBF-443C-97F4-91FD5598BE61}" ShortID="957664907">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8BDED7E-AAFE-43D5-A733-45FABDC95232}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hydraulic_start" ID="{578654D3-5801-4CE8-91DA-F7E46D7FE258}">
+									<Language>SFX</Language>
+									<AudioFile>Hydraulic_start.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="322911085"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Hydraulic_start" ID="{578654D3-5801-4CE8-91DA-F7E46D7FE258}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="hydraulic_loop" ID="{1153A580-08D9-4B7F-BA8A-4061FFBC7C8E}" ShortID="694762001">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8BDED7E-AAFE-43D5-A733-45FABDC95232}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="hydraulic_loop" ID="{4A3FC7BC-026F-46DB-9E81-D1938725A79A}">
+									<Language>SFX</Language>
+									<AudioFile>hydraulic_loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="153059413"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="hydraulic_loop" ID="{4A3FC7BC-026F-46DB-9E81-D1938725A79A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="Hydraulic_start" ID="{C993667C-4EBF-443C-97F4-91FD5598BE61}"/>
+						<ItemRef Name="hydraulic_loop" ID="{1153A580-08D9-4B7F-BA8A-4061FFBC7C8E}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<Sound Name="Hydraulic_end" ID="{2FBBBBFA-A3FE-4A60-91F3-0F069042C26A}" ShortID="392609888">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8BDED7E-AAFE-43D5-A733-45FABDC95232}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Hydraulic_end" ID="{CA43E36A-9997-408D-9D0E-EBAC6F55B6F5}">
+							<Language>SFX</Language>
+							<AudioFile>Hydraulic_end.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="983576163"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Hydraulic_end" ID="{CA43E36A-9997-408D-9D0E-EBAC6F55B6F5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Door_Closed" ID="{E79C9129-C77C-4C0D-A39B-280224FF42F2}" ShortID="512530914">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8BDED7E-AAFE-43D5-A733-45FABDC95232}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Door_Closed" ID="{B884100F-3A30-401B-91C4-B1435C87518D}">
+							<Language>SFX</Language>
+							<AudioFile>Door_Closed.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="753882570"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Door_Closed" ID="{B884100F-3A30-401B-91C4-B1435C87518D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Folder Name="UI" ID="{8FA7A8D7-A80F-4226-A135-BBFEAEF5BA1D}" ShortID="337705916">
+					<ChildrenList>
+						<Sound Name="Button_Hover" ID="{68AB26F4-39F8-442D-97B0-2778AFB0BB24}" ShortID="169037322">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8BDED7E-AAFE-43D5-A733-45FABDC95232}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Button_Hover" ID="{E4A56866-2B90-4662-8A06-37798FEFB113}">
+									<Language>SFX</Language>
+									<AudioFile>Button_Hover.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="913928112"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Button_Hover" ID="{E4A56866-2B90-4662-8A06-37798FEFB113}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Button_selected" ID="{8BE7714E-93B2-4FEB-8146-801238031779}" ShortID="821096695">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C8BDED7E-AAFE-43D5-A733-45FABDC95232}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4873F7B3-ED61-4487-98A7-C40F14F979F2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Button_selected" ID="{ED38638E-57BD-43FC-ACA2-F2B4892E4D79}">
+									<Language>SFX</Language>
+									<AudioFile>Button_selected.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="675426724"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Button_selected" ID="{ED38638E-57BD-43FC-ACA2-F2B4892E4D79}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

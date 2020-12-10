@@ -12,14 +12,19 @@
 						<ObjectRef Name="placeholder_lucho" ID="{61465E14-BD80-4144-A7B2-A0A50CC24678}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_button_locked" ID="{5CFE974A-74BE-42C6-9D74-34E58C1DFDF1}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_ambience_loop" ID="{B40B3A74-C7A6-436D-886E-D3295DFCE262}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_door_closed" ID="{EB734953-4F6D-44D3-A5EB-D0FE0FB63172}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="walk_step" ID="{95043A34-3DD5-4579-A526-29E86C3DCFCB}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_fire_loop" ID="{E54EBB99-9FAD-4606-81C3-EEF83068074F}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="land_jump" ID="{4D41EA81-B2CA-498C-95C0-422A3D1B3B2F}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hydraulic_end" ID="{7612AF60-D429-49A6-8BC6-D666241CE77D}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_door_opening" ID="{03C8D2E5-FAEE-4A0A-A03B-758625885646}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_button_active" ID="{2B538AE3-B2FE-4C37-9281-D4B7CF45730A}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="tp_start" ID="{2FBAB47C-73BD-4CB3-8812-579302592AD6}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hydraulic_start" ID="{ED1B6780-2DD3-4D71-94EB-8F1D204A5DCA}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="tp_end" ID="{0DDC3FC1-8AE8-4F57-AA7C-2988E643CEB3}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="stop_all" ID="{F1B7829A-85A2-4F5E-8020-8C88BEF97E76}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="button_selected" ID="{3942C41F-D8B3-4FA5-BA2F-9F9C8C9BE690}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="button_hover" ID="{26A5BF81-A56A-4FBD-AFCB-71D557F0549F}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
@@ -27,6 +32,7 @@
 				<SoundBank Name="Music" ID="{FF3B5BDD-0E17-417A-B34A-29A8D5E668D4}">
 					<ObjectInclusionList>
 						<ObjectRef Name="play_main_menu_music" ID="{508489F5-42AD-46EB-BE35-EA50E4715F33}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="you_died_music" ID="{B23525EB-2F08-4805-B9C2-91AB801E1F6E}" WorkUnitID="{67C5A7F8-F225-4CC5-A082-303AC6F7F351}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_gameplay_music" ID="{E95E99F2-0B45-4935-9EFB-974F140E476F}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

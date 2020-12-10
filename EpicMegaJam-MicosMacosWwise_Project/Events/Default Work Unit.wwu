@@ -27,6 +27,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="play_death_music" ID="{8944C4CB-2B03-436C-8D85-ACFAD839B37E}">
+							<ChildrenList>
+								<Action Name="" ID="{A443279C-2B31-4C30-9274-B9B530AF43C1}" ShortID="874937472">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="you_died_music" ID="{B23525EB-2F08-4805-B9C2-91AB801E1F6E}" WorkUnitID="{67C5A7F8-F225-4CC5-A082-303AC6F7F351}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Gameplay" ID="{E457B909-E33C-42DD-8A86-7EF345B6C459}" ShortID="669391072">
@@ -156,6 +167,75 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="button_stuck" ID="{D43A8671-33BD-4CBD-89C4-A2FA94EA1A77}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="hydraulic_start" ID="{ED1B6780-2DD3-4D71-94EB-8F1D204A5DCA}">
+							<ChildrenList>
+								<Action Name="" ID="{F48F2665-99C8-4BB4-A921-7128512464B0}" ShortID="779415916">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hydraulic_start" ID="{18563A5A-B336-426B-A3C0-E6F74FBCB7BF}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="hydraulic_end" ID="{7612AF60-D429-49A6-8BC6-D666241CE77D}">
+							<ChildrenList>
+								<Action Name="" ID="{2C755576-CFB4-4564-933E-34435A62C29C}" ShortID="330171664">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hydraulic_end" ID="{2FBBBBFA-A3FE-4A60-91F3-0F069042C26A}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2FDCE042-1CD9-487D-A6D3-89292DA893FC}" ShortID="231894129">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hydraulic_start" ID="{18563A5A-B336-426B-A3C0-E6F74FBCB7BF}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="play_door_closed" ID="{EB734953-4F6D-44D3-A5EB-D0FE0FB63172}">
+							<ChildrenList>
+								<Action Name="" ID="{25166D22-E537-4F1F-8C20-9BE0AD43627C}" ShortID="375145877">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Door_Closed" ID="{E79C9129-C77C-4C0D-A39B-280224FF42F2}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{45E2C7BC-8594-48A4-9125-D0290CF93466}" ShortID="988169520">
+					<ChildrenList>
+						<Event Name="button_hover" ID="{26A5BF81-A56A-4FBD-AFCB-71D557F0549F}">
+							<ChildrenList>
+								<Action Name="" ID="{9A2A1434-14C8-485C-83A1-CA9EF0CAD820}" ShortID="26704291">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Button_Hover" ID="{68AB26F4-39F8-442D-97B0-2778AFB0BB24}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="button_selected" ID="{3942C41F-D8B3-4FA5-BA2F-9F9C8C9BE690}">
+							<ChildrenList>
+								<Action Name="" ID="{56463C28-9C4A-496A-B0AF-82F1BE22D941}" ShortID="954857339">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Button_selected" ID="{8BE7714E-93B2-4FEB-8146-801238031779}" WorkUnitID="{AA8CD115-40B5-419E-A98F-5E8BF0AFB54B}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
