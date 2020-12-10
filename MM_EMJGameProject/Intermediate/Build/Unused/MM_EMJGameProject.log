@@ -1,0 +1,21 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\GitHub\EpicMegaJam_MicosMacos).
+  Building MM_EMJGameProjectEditor...
+  Using Visual Studio 2019 14.28.29334 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Distributing 1 action to XGE
+  --------------------Build System Warning---------------------------------------
+  License is invalid:
+      License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+      This build will run in standalone mode.
+  
+  -------------------------------------------------------------------------------
+  --------------------Project: Default-------------------------------------------
+  MM_EMJGameProjectEditor.target (0:00.14 at +0:00)
+  ---------------------- Done ----------------------
+  
+      Rebuild All: 1 succeeded, 0 failed, 0 skipped
+  
+  1 build system warning(s):
+     - License is invalid
+  
+  Total time in XGE executor: 0,35 seconds
+  Total execution time: 1,00 seconds
