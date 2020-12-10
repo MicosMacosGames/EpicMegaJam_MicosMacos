@@ -1,3 +1,0 @@
-D:\GitHub\EpicMegaJam_MicosMacos\MM_EMJGameProject\Intermediate\Build\Win64\UE4\Shipping\MM_EMJGameProject\Definitions.MM_EMJGameProject.h
-D:\ProgramFiles\EpicGames\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\ProgramFiles\EpicGames\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
