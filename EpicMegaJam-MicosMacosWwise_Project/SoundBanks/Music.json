@@ -1,0 +1,151 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\",
+   "SourceFilesRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\SoundBanks\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3991942870",
+    "GUID": "{FF3B5BDD-0E17-417A-B34A-29A8D5E668D4}",
+    "Language": "SFX",
+    "Hash": "2941139217",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
+    "ShortName": "Music",
+    "Path": "Music.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2121971352",
+      "Name": "play_death_music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\play_death_music",
+      "GUID": "{8944C4CB-2B03-436C-8D85-ACFAD839B37E}",
+      "DurationType": "OneShot",
+      "DurationMin": "8.352767",
+      "DurationMax": "8.352767"
+     },
+     {
+      "Id": "1231987938",
+      "Name": "play_gameplay_music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\play_gameplay_music",
+      "GUID": "{E95E99F2-0B45-4935-9EFB-974F140E476F}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "65290926",
+        "Language": "SFX",
+        "ShortName": "gp_music_synth_3_start.wav",
+        "Path": "SFX\\gp_music_synth_3_start_9EDFC787.wem"
+       },
+       {
+        "Id": "375901617",
+        "Language": "SFX",
+        "ShortName": "gp_music_synth_3_loop.wav",
+        "Path": "SFX\\gp_music_synth_3_loop_9EDFC787.wem"
+       },
+       {
+        "Id": "416960691",
+        "Language": "SFX",
+        "ShortName": "gp_music_classic_3_loop.wav",
+        "Path": "SFX\\gp_music_classic_3_loop_9EDFC787.wem"
+       },
+       {
+        "Id": "1056081839",
+        "Language": "SFX",
+        "ShortName": "gameplay_music_classic_3_start.wav",
+        "Path": "SFX\\gameplay_music_classic_3_start_9EDFC787.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{E102FDEE-916C-4679-9BDF-2F3A3EC21EFA}",
+        "Media": [
+         {
+          "Id": "416960691"
+         },
+         {
+          "Id": "1056081839"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{60E0108C-4E7D-49DB-B42C-F9C1D3F8E7A0}",
+        "Media": [
+         {
+          "Id": "375901617"
+         },
+         {
+          "Id": "65290926"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "2895168921",
+      "Name": "play_main_menu_music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\play_main_menu_music",
+      "GUID": "{508489F5-42AD-46EB-BE35-EA50E4715F33}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "32127206",
+        "Language": "SFX",
+        "ShortName": "main_menu_start.wav",
+        "Path": "SFX\\main_menu_start_9EDFC787.wem"
+       },
+       {
+        "Id": "117926831",
+        "Language": "SFX",
+        "ShortName": "main_menu_loop.wav",
+        "Path": "SFX\\main_menu_loop_9EDFC787.wem"
+       }
+      ]
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "599798573",
+      "Language": "SFX",
+      "ShortName": "you_died_short_ver.wav",
+      "Path": "SFX\\you_died_short_ver_9EDFC787.wem"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3695383560",
+      "Name": "lvl_dimension",
+      "ObjectPath": "\\States\\Default Work Unit\\lvl_dimension",
+      "GUID": "{083E38FC-8F4B-42ED-96B1-3016DD5E553A}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\lvl_dimension\\None",
+        "GUID": "{4423C9CD-E156-43E6-A8DF-BE846CFECB57}"
+       },
+       {
+        "Id": "1627031569",
+        "Name": "past",
+        "ObjectPath": "\\States\\Default Work Unit\\lvl_dimension\\past",
+        "GUID": "{60E0108C-4E7D-49DB-B42C-F9C1D3F8E7A0}"
+       },
+       {
+        "Id": "3524519058",
+        "Name": "present",
+        "ObjectPath": "\\States\\Default Work Unit\\lvl_dimension\\present",
+        "GUID": "{E102FDEE-916C-4679-9BDF-2F3A3EC21EFA}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

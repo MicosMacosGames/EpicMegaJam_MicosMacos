@@ -16,7 +16,7 @@
     "Id": "702482391",
     "GUID": "{E58E0BD5-FCDA-42A2-9210-D8E3F1BDD478}",
     "Language": "SFX",
-    "Hash": "3565757195",
+    "Hash": "457527469",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Game",
     "ShortName": "Game",
     "Path": "Game.bnk",
@@ -92,48 +92,6 @@
         "Language": "SFX",
         "ShortName": "Hydraulic_start.wav",
         "Path": "SFX\\Hydraulic_start_10C4C929.wem"
-       }
-      ]
-     },
-     {
-      "Id": "2401821937",
-      "Name": "land_jump",
-      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\land_jump",
-      "GUID": "{4D41EA81-B2CA-498C-95C0-422A3D1B3B2F}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.367448",
-      "DurationMax": "0.686599",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "265711364",
-        "Language": "SFX",
-        "ShortName": "landing_on_tile.wav",
-        "Path": "SFX\\landing_on_tile_10C4C929.wem"
-       },
-       {
-        "Id": "1070978154",
-        "Language": "SFX",
-        "ShortName": "landing_on_metal.wav",
-        "Path": "SFX\\landing_on_metal_10C4C929.wem"
-       }
-      ],
-      "DefaultSwitchValue": "{202D0293-272A-42C5-9406-27C48A95142A}",
-      "SwitchContainers": [
-       {
-        "SwitchValue": "{7EAE14BF-60F6-4431-878D-DD31A32495ED}",
-        "Media": [
-         {
-          "Id": "1070978154"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{202D0293-272A-42C5-9406-27C48A95142A}",
-        "Media": [
-         {
-          "Id": "265711364"
-         }
-        ]
        }
       ]
      },

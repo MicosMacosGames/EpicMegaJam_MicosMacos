@@ -1,0 +1,47 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1779335	play_fire_loop			\Default Work Unit\Gameplay\play_fire_loop	
+	139741690	placeholder_lucho			\Default Work Unit\Gameplay\placeholder_lucho	
+	452547817	stop_all			\Default Work Unit\Gameplay\stop_all	
+	710060161	play_crank_end			\Default Work Unit\Gameplay\play_crank_end	
+	828587345	play_door_closed			\Default Work Unit\Gameplay\play_door_closed	
+	1026169559	play_ambience_loop			\Default Work Unit\Gameplay\play_ambience_loop	
+	1548782119	play_door_opening			\Default Work Unit\Gameplay\play_door_opening	
+	1701177942	button_hover			\Default Work Unit\UI\button_hover	
+	2401821937	land_jump			\Default Work Unit\Gameplay\land_jump	
+	2618135864	tp_start			\Default Work Unit\Gameplay\tp_start	
+	2674582883	tp_end			\Default Work Unit\Gameplay\tp_end	
+	2723322983	play_button_active			\Default Work Unit\Gameplay\play_button_active	
+	3153326883	button_selected			\Default Work Unit\UI\button_selected	
+	3169823511	play_button_locked			\Default Work Unit\Gameplay\play_button_locked	
+	3227945226	hydraulic_end			\Default Work Unit\Gameplay\hydraulic_end	
+	3479586975	walk_step			\Default Work Unit\Gameplay\walk_step	
+	3773288514	play_electricity_loop			\Default Work Unit\Gameplay\play_electricity_loop	
+	3894563186	play_crank_start			\Default Work Unit\Gameplay\play_crank_start	
+	3969391097	hydraulic_start			\Default Work Unit\Gameplay\hydraulic_start	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1834394558	surface			\Default Work Unit\surface	
+
+Switch	ID	Name	Switch Group			Notes
+	2473969246	metal	surface			
+	2637588553	tile	surface			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1834394558	surface			\Default Work Unit\surface	
+
+State	ID	Name	State Group			Notes
+	748895195	None	surface			
+	2473969246	metal	surface			
+	2637588553	tile	surface			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2540234394	tp_cast_volume			\Default Work Unit\tp_cast_volume	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	9237805	Fire_Loop_1	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Fire_Loop_1_D79FB2B7.wem	9237805.wem	\Actor-Mixer Hierarchy\Default Work Unit\Fire_Sound\Fire_Loop_1	
+	153059413	hydraulic_loop	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\hydraulic_loop_D79FB2B7.wem	153059413.wem	\Actor-Mixer Hierarchy\Default Work Unit\Hydraulic_start\hydraulic_loop	
+	661135958	Electric- Light- Ficker- Spark- Static_03	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Electric- Light- Ficker- Spark- Static_03_D79FB2B7.wem	661135958.wem	\Actor-Mixer Hierarchy\Default Work Unit\Electric- Light- Ficker- Spark- Static_03	
+	672518626	Fire_Loop_2	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Fire_Loop_2_D79FB2B7.wem	672518626.wem	\Actor-Mixer Hierarchy\Default Work Unit\Fire_Sound\Fire_Loop_2	
+	900857646	old_building_ambience_loop	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\old_building_ambience_loop_D79FB2B7.wem	900857646.wem	\Actor-Mixer Hierarchy\Default Work Unit\old_building_ambience_loop	
+	978827002	Door_Opening	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\Door_Opening_10C4C929.wem	978827002.wem	\Actor-Mixer Hierarchy\Default Work Unit\Door_Opening	
+

@@ -1,0 +1,607 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\",
+   "SourceFilesRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1031843195",
+    "GUID": "{3D80AD7B-AD7B-1D7B-7B7B-7B7B7B7B7B7B}",
+    "Language": "SFX",
+    "Hash": "1565175629",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_137DF81943F3D3CAE2FA10B12F60A66E",
+    "ShortName": "SB_137DF81943F3D3CAE2FA10B12F60A66E",
+    "Path": "SB_137DF81943F3D3CAE2FA10B12F60A66E.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1701177942",
+      "Name": "button_hover",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\button_hover",
+      "GUID": "{26A5BF81-A56A-4FBD-AFCB-71D557F0549F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.127958",
+      "DurationMax": "0.127958",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "913928112",
+        "Language": "SFX",
+        "ShortName": "Button_Hover.wav",
+        "Path": "SFX\\Button_Hover_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3153326883",
+      "Name": "button_selected",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\button_selected",
+      "GUID": "{3942C41F-D8B3-4FA5-BA2F-9F9C8C9BE690}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.000000",
+      "DurationMax": "4.000000",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "675426724",
+        "Language": "SFX",
+        "ShortName": "Button_selected.wav",
+        "Path": "SFX\\Button_selected_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3227945226",
+      "Name": "hydraulic_end",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\hydraulic_end",
+      "GUID": "{7612AF60-D429-49A6-8BC6-D666241CE77D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.875669",
+      "DurationMax": "0.875669",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "983576163",
+        "Language": "SFX",
+        "ShortName": "Hydraulic_end.wav",
+        "Path": "SFX\\Hydraulic_end_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3969391097",
+      "Name": "hydraulic_start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\hydraulic_start",
+      "GUID": "{ED1B6780-2DD3-4D71-94EB-8F1D204A5DCA}",
+      "DurationType": "Infinite",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "153059413",
+        "Language": "SFX",
+        "ShortName": "hydraulic_loop.wav",
+        "Path": "SFX\\hydraulic_loop_D79FB2B7.wem"
+       }
+      ],
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "322911085",
+        "Language": "SFX",
+        "ShortName": "Hydraulic_start.wav",
+        "Path": "SFX\\Hydraulic_start_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2401821937",
+      "Name": "land_jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\land_jump",
+      "GUID": "{4D41EA81-B2CA-498C-95C0-422A3D1B3B2F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.367448",
+      "DurationMax": "0.686599",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "265711364",
+        "Language": "SFX",
+        "ShortName": "landing_on_tile.wav",
+        "Path": "SFX\\landing_on_tile_10C4C929.wem"
+       },
+       {
+        "Id": "1070978154",
+        "Language": "SFX",
+        "ShortName": "landing_on_metal.wav",
+        "Path": "SFX\\landing_on_metal_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{202D0293-272A-42C5-9406-27C48A95142A}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{7EAE14BF-60F6-4431-878D-DD31A32495ED}",
+        "Media": [
+         {
+          "Id": "1070978154"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{202D0293-272A-42C5-9406-27C48A95142A}",
+        "Media": [
+         {
+          "Id": "265711364"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "139741690",
+      "Name": "placeholder_lucho",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\placeholder_lucho",
+      "GUID": "{61465E14-BD80-4144-A7B2-A0A50CC24678}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.118912",
+      "DurationMax": "1.118912",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "268996975",
+        "Language": "SFX",
+        "ShortName": "placeholder_lucho.wav",
+        "Path": "SFX\\placeholder_lucho_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1026169559",
+      "Name": "play_ambience_loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_ambience_loop",
+      "GUID": "{B40B3A74-C7A6-436D-886E-D3295DFCE262}",
+      "DurationType": "Infinite",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "900857646",
+        "Language": "SFX",
+        "ShortName": "old_building_ambience_loop.wav",
+        "Path": "SFX\\old_building_ambience_loop_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2723322983",
+      "Name": "play_button_active",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_button_active",
+      "GUID": "{2B538AE3-B2FE-4C37-9281-D4B7CF45730A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.379749",
+      "DurationMax": "0.379749",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "980064745",
+        "Language": "SFX",
+        "ShortName": "button_press.wav",
+        "Path": "SFX\\button_press_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3169823511",
+      "Name": "play_button_locked",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_button_locked",
+      "GUID": "{5CFE974A-74BE-42C6-9D74-34E58C1DFDF1}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.516417",
+      "DurationMax": "0.516417",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "557567192",
+        "Language": "SFX",
+        "ShortName": "button_stuck.wav",
+        "Path": "SFX\\button_stuck_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "710060161",
+      "Name": "play_crank_end",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_crank_end",
+      "GUID": "{9E6B3162-18C8-4153-8FF5-2500985D859F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.839500",
+      "DurationMax": "0.839500",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "519781250",
+        "Language": "SFX",
+        "ShortName": "cranking_crank_end.wav",
+        "Path": "SFX\\cranking_crank_end_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3894563186",
+      "Name": "play_crank_start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_crank_start",
+      "GUID": "{F02C19FF-0592-4E57-A268-9D7B37A8390F}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "215987025",
+        "Language": "SFX",
+        "ShortName": "cranking_crank_loop.wav",
+        "Path": "SFX\\cranking_crank_loop_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "828587345",
+      "Name": "play_door_closed",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_door_closed",
+      "GUID": "{EB734953-4F6D-44D3-A5EB-D0FE0FB63172}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.947642",
+      "DurationMax": "1.947642",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "753882570",
+        "Language": "SFX",
+        "ShortName": "Door_Closed.wav",
+        "Path": "SFX\\Door_Closed_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1548782119",
+      "Name": "play_door_opening",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_door_opening",
+      "GUID": "{03C8D2E5-FAEE-4A0A-A03B-758625885646}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.750000",
+      "DurationMax": "5.750000",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "978827002",
+        "Language": "SFX",
+        "ShortName": "Door_Opening.wav",
+        "Path": "SFX\\Door_Opening_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3773288514",
+      "Name": "play_electricity_loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_electricity_loop",
+      "GUID": "{AD46C936-F678-4554-93C9-4AFB23B0D681}",
+      "DurationType": "Infinite",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "661135958",
+        "Language": "SFX",
+        "ShortName": "Electric- Light- Ficker- Spark- Static_03.wav",
+        "Path": "SFX\\Electric- Light- Ficker- Spark- Static_03_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1779335",
+      "Name": "play_fire_loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_fire_loop",
+      "GUID": "{E54EBB99-9FAD-4606-81C3-EEF83068074F}",
+      "MaxAttenuation": "100.000000",
+      "DurationType": "Infinite",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "9237805",
+        "Language": "SFX",
+        "ShortName": "Fire_Loop_1.wav",
+        "Path": "SFX\\Fire_Loop_1_D79FB2B7.wem"
+       },
+       {
+        "Id": "672518626",
+        "Language": "SFX",
+        "ShortName": "Fire_Loop_2.wav",
+        "Path": "SFX\\Fire_Loop_2_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "452547817",
+      "Name": "stop_all",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\stop_all",
+      "GUID": "{F1B7829A-85A2-4F5E-8020-8C88BEF97E76}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "2674582883",
+      "Name": "tp_end",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\tp_end",
+      "GUID": "{0DDC3FC1-8AE8-4F57-AA7C-2988E643CEB3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.986687",
+      "DurationMax": "0.986687",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "133434224",
+        "Language": "SFX",
+        "ShortName": "tp_end.wav",
+        "Path": "SFX\\tp_end_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2618135864",
+      "Name": "tp_start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\tp_start",
+      "GUID": "{2FBAB47C-73BD-4CB3-8812-579302592AD6}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "741913904",
+        "Language": "SFX",
+        "ShortName": "Electricity_Cast_Loopv1.wav",
+        "Path": "SFX\\Electricity_Cast_Loopv1_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3479586975",
+      "Name": "walk_step",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\walk_step",
+      "GUID": "{95043A34-3DD5-4579-A526-29E86C3DCFCB}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.125066",
+      "DurationMax": "0.655464",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "10101463",
+        "Language": "SFX",
+        "ShortName": "Walk_10.wav",
+        "Path": "SFX\\Walk_10_10C4C929.wem"
+       },
+       {
+        "Id": "38457912",
+        "Language": "SFX",
+        "ShortName": "Walk_11.wav",
+        "Path": "SFX\\Walk_11_10C4C929.wem"
+       },
+       {
+        "Id": "56870491",
+        "Language": "SFX",
+        "ShortName": "Walk_6.wav",
+        "Path": "SFX\\Walk_6_10C4C929.wem"
+       },
+       {
+        "Id": "115517585",
+        "Language": "SFX",
+        "ShortName": "Walking_Metal_2.wav",
+        "Path": "SFX\\Walking_Metal_2_10C4C929.wem"
+       },
+       {
+        "Id": "254417195",
+        "Language": "SFX",
+        "ShortName": "Walk_13.wav",
+        "Path": "SFX\\Walk_13_10C4C929.wem"
+       },
+       {
+        "Id": "276035138",
+        "Language": "SFX",
+        "ShortName": "Walking_Metal_3.wav",
+        "Path": "SFX\\Walking_Metal_3_10C4C929.wem"
+       },
+       {
+        "Id": "300417203",
+        "Language": "SFX",
+        "ShortName": "Walk_3.wav",
+        "Path": "SFX\\Walk_3_10C4C929.wem"
+       },
+       {
+        "Id": "441591980",
+        "Language": "SFX",
+        "ShortName": "Walking_Metal_6.wav",
+        "Path": "SFX\\Walking_Metal_6_10C4C929.wem"
+       },
+       {
+        "Id": "629120973",
+        "Language": "SFX",
+        "ShortName": "Walking_Metal_1.wav",
+        "Path": "SFX\\Walking_Metal_1_10C4C929.wem"
+       },
+       {
+        "Id": "657320189",
+        "Language": "SFX",
+        "ShortName": "Walk_12.wav",
+        "Path": "SFX\\Walk_12_10C4C929.wem"
+       },
+       {
+        "Id": "664161433",
+        "Language": "SFX",
+        "ShortName": "Walk_2.wav",
+        "Path": "SFX\\Walk_2_10C4C929.wem"
+       },
+       {
+        "Id": "697657336",
+        "Language": "SFX",
+        "ShortName": "Walking_Metal_5.wav",
+        "Path": "SFX\\Walking_Metal_5_10C4C929.wem"
+       },
+       {
+        "Id": "750152292",
+        "Language": "SFX",
+        "ShortName": "Walk_7.wav",
+        "Path": "SFX\\Walk_7_10C4C929.wem"
+       },
+       {
+        "Id": "787042566",
+        "Language": "SFX",
+        "ShortName": "Walk_8.wav",
+        "Path": "SFX\\Walk_8_10C4C929.wem"
+       },
+       {
+        "Id": "880564227",
+        "Language": "SFX",
+        "ShortName": "Walk_5.wav",
+        "Path": "SFX\\Walk_5_10C4C929.wem"
+       },
+       {
+        "Id": "901390688",
+        "Language": "SFX",
+        "ShortName": "Walk_1.wav",
+        "Path": "SFX\\Walk_1_10C4C929.wem"
+       },
+       {
+        "Id": "903959091",
+        "Language": "SFX",
+        "ShortName": "Walking_Metal_9.wav",
+        "Path": "SFX\\Walking_Metal_9_10C4C929.wem"
+       },
+       {
+        "Id": "933543172",
+        "Language": "SFX",
+        "ShortName": "Walk_9.wav",
+        "Path": "SFX\\Walk_9_10C4C929.wem"
+       },
+       {
+        "Id": "934539498",
+        "Language": "SFX",
+        "ShortName": "Walk_4.wav",
+        "Path": "SFX\\Walk_4_10C4C929.wem"
+       },
+       {
+        "Id": "991928093",
+        "Language": "SFX",
+        "ShortName": "Walking_Metal_7.wav",
+        "Path": "SFX\\Walking_Metal_7_10C4C929.wem"
+       },
+       {
+        "Id": "1043887779",
+        "Language": "SFX",
+        "ShortName": "Walking_Metal_4.wav",
+        "Path": "SFX\\Walking_Metal_4_10C4C929.wem"
+       },
+       {
+        "Id": "1050217984",
+        "Language": "SFX",
+        "ShortName": "Walking_Metal_8.wav",
+        "Path": "SFX\\Walking_Metal_8_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{202D0293-272A-42C5-9406-27C48A95142A}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{202D0293-272A-42C5-9406-27C48A95142A}",
+        "Media": [
+         {
+          "Id": "901390688"
+         },
+         {
+          "Id": "664161433"
+         },
+         {
+          "Id": "300417203"
+         },
+         {
+          "Id": "934539498"
+         },
+         {
+          "Id": "880564227"
+         },
+         {
+          "Id": "56870491"
+         },
+         {
+          "Id": "750152292"
+         },
+         {
+          "Id": "787042566"
+         },
+         {
+          "Id": "933543172"
+         },
+         {
+          "Id": "10101463"
+         },
+         {
+          "Id": "38457912"
+         },
+         {
+          "Id": "657320189"
+         },
+         {
+          "Id": "254417195"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{7EAE14BF-60F6-4431-878D-DD31A32495ED}",
+        "Media": [
+         {
+          "Id": "629120973"
+         },
+         {
+          "Id": "115517585"
+         },
+         {
+          "Id": "276035138"
+         },
+         {
+          "Id": "1043887779"
+         },
+         {
+          "Id": "697657336"
+         },
+         {
+          "Id": "441591980"
+         },
+         {
+          "Id": "991928093"
+         },
+         {
+          "Id": "1050217984"
+         },
+         {
+          "Id": "903959091"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "2540234394",
+      "Name": "tp_cast_volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\tp_cast_volume",
+      "GUID": "{F618B33E-7A76-4152-9BBE-0814A25F5FEA}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1834394558",
+      "Name": "surface",
+      "ObjectPath": "\\Switches\\Default Work Unit\\surface",
+      "GUID": "{D0FC76F0-BDF6-4946-BA13-18875071854F}",
+      "Switches": [
+       {
+        "Id": "2637588553",
+        "Name": "tile",
+        "ObjectPath": "\\Switches\\Default Work Unit\\surface\\tile",
+        "GUID": "{202D0293-272A-42C5-9406-27C48A95142A}"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\surface\\metal",
+        "GUID": "{7EAE14BF-60F6-4431-878D-DD31A32495ED}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

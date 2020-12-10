@@ -62,12 +62,20 @@
 							<Position X="4" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="button_hover" ID="{26A5BF81-A56A-4FBD-AFCB-71D557F0549F}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="play_crank_start" ID="{F02C19FF-0592-4E57-A268-9D7B37A8390F}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}"/>
 							<Position X="5" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="play_crank_end" ID="{9E6B3162-18C8-4153-8FF5-2500985D859F}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}"/>
 							<Position X="5" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="button_selected" ID="{3942C41F-D8B3-4FA5-BA2F-9F9C8C9BE690}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}"/>
+							<Position X="5" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">

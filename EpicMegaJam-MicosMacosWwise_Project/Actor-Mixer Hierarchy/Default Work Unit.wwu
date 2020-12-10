@@ -121,11 +121,12 @@
 										<Value>True</Value>
 									</ValueList>
 								</Property>
-								<Property Name="Volume" Type="Real64">
+								<Property Name="OutputBusVolume" Type="Real64">
 									<ValueList>
 										<Value>-8</Value>
 									</ValueList>
 								</Property>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -156,11 +157,12 @@
 										<Value>True</Value>
 									</ValueList>
 								</Property>
-								<Property Name="Volume" Type="Real64">
+								<Property Name="OutputBusVolume" Type="Real64">
 									<ValueList>
 										<Value>-7</Value>
 									</ValueList>
 								</Property>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -197,7 +199,7 @@
 								<Value>True</Value>
 							</ValueList>
 						</Property>
-						<Property Name="Volume" Type="Real64">
+						<Property Name="OutputBusVolume" Type="Real64">
 							<ValueList>
 								<Value>-6</Value>
 							</ValueList>
@@ -299,7 +301,7 @@
 								<Value>True</Value>
 							</ValueList>
 						</Property>
-						<Property Name="Volume" Type="Real64">
+						<Property Name="OutputBusVolume" Type="Real64">
 							<ValueList>
 								<Value>8</Value>
 							</ValueList>
@@ -331,6 +333,11 @@
 						<Sound Name="Electricity_Cast_Loopv1" ID="{AFCC1376-55D6-4DC9-965A-6FE3FBCE1168}" ShortID="649363233">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Pitch" Type="int32">
 									<RTPCList>
 										<RTPC Name="" ID="{C396F25F-7A26-4ECC-8763-0F6055D6E358}" ShortID="406001354">
@@ -361,9 +368,6 @@
 									</RTPCList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-9</Value>
-									</ValueList>
 									<RTPCList>
 										<RTPC Name="" ID="{C09BA4C2-19BB-41B4-AFD1-3CE3B1972D85}" ShortID="52029654">
 											<ReferenceList>
@@ -416,7 +420,7 @@
 						</Sound>
 						<Sound Name="tp_end" ID="{662269B2-040D-44C1-98F5-E5F09FD4BB94}" ShortID="1011893276">
 							<PropertyList>
-								<Property Name="Volume" Type="Real64">
+								<Property Name="OutputBusVolume" Type="Real64">
 									<ValueList>
 										<Value>-7</Value>
 									</ValueList>
@@ -450,9 +454,9 @@
 						<Sound Name="button_stuck" ID="{D43A8671-33BD-4CBD-89C4-A2FA94EA1A77}" ShortID="549000793">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
-								<Property Name="Volume" Type="Real64">
+								<Property Name="OutputBusVolume" Type="Real64">
 									<ValueList>
-										<Value>12</Value>
+										<Value>-14</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1401,9 +1405,14 @@
 					<ChildrenList>
 						<Sound Name="Button_Hover" ID="{68AB26F4-39F8-442D-97B0-2778AFB0BB24}" ShortID="169037322">
 							<PropertyList>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>-37</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-14</Value>
+										<Value>-17</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1430,9 +1439,9 @@
 						</Sound>
 						<Sound Name="Button_selected" ID="{8BE7714E-93B2-4FEB-8146-801238031779}" ShortID="821096695">
 							<PropertyList>
-								<Property Name="Volume" Type="Real64">
+								<Property Name="OutputBusVolume" Type="Real64">
 									<ValueList>
-										<Value>-14</Value>
+										<Value>-20</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1463,7 +1472,7 @@
 					<ChildrenList>
 						<Sound Name="cranking_crank_end" ID="{18D9A6CD-C13B-4521-84A4-636B3A1C6A97}" ShortID="906577227">
 							<PropertyList>
-								<Property Name="Volume" Type="Real64">
+								<Property Name="OutputBusVolume" Type="Real64">
 									<ValueList>
 										<Value>-7</Value>
 									</ValueList>
@@ -1493,9 +1502,9 @@
 						<Sound Name="cranking_crank_loop" ID="{5094EF4F-1DA4-4D45-9587-F1FED3D4DB49}" ShortID="182041519">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
+								<Property Name="OutputBusVolume" Type="Real64">
 									<ValueList>
-										<Value>-14</Value>
+										<Value>-7</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1530,7 +1539,7 @@
 								<Value>True</Value>
 							</ValueList>
 						</Property>
-						<Property Name="Volume" Type="Real64">
+						<Property Name="OutputBusVolume" Type="Real64">
 							<ValueList>
 								<Value>12</Value>
 							</ValueList>

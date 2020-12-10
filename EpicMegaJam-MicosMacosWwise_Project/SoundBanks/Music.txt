@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1231987938	play_gameplay_music			\Default Work Unit\Music\play_gameplay_music	
+	2121971352	play_death_music			\Default Work Unit\Music\play_death_music	
+	2895168921	play_main_menu_music			\Default Work Unit\Music\play_main_menu_music	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3695383560	lvl_dimension			\Default Work Unit\lvl_dimension	
+
+State	ID	Name	State Group			Notes
+	748895195	None	lvl_dimension			
+	1627031569	past	lvl_dimension			
+	3524519058	present	lvl_dimension			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	32127206	main_menu_start	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\main_menu_start_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\main_menu_music\main_menu_start\main_menu_start		742627
+	65290926	gp_music_synth_3_start	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\gp_music_synth_3_start_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\gameplay_music\synth_music\gp_music_synth_start\gp_music_synth_3_start		1383124
+	117926831	main_menu_loop	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\main_menu_loop_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\main_menu_music\main_menu_loop\main_menu_loop		742319
+	375901617	gp_music_synth_3_loop	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\gp_music_synth_3_loop_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\gameplay_music\synth_music\gp_music_synth_loop\gp_music_synth_3_loop		1385090
+	416960691	gp_music_classic_3_loop	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\gp_music_classic_3_loop_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\gameplay_music\classic_music\gp_music_classic_loop\gp_music_classic_3_loop		1566805
+	599798573	you_died_short_ver	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\you_died_short_ver_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\you_died_music\you_died\you_died_short_ver		61271
+	1056081839	gameplay_music_classic_3_start	D:\Github\EpicMegaJam_GameJam\EpicMegaJam_MicosMacos\EpicMegaJam-MicosMacosWwise_Project\.cache\Windows\SFX\gameplay_music_classic_3_start_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\gameplay_music\classic_music\gp_music_classic_start\gameplay_music_classic_3_start		1567528
+
