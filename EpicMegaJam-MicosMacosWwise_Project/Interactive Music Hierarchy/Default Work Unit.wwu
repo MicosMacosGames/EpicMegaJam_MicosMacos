@@ -793,6 +793,13 @@
 					</CueList>
 				</MusicSegment>
 				<MusicPlaylistContainer Name="you_died_music" ID="{B23525EB-2F08-4805-B9C2-91AB801E1F6E}" ShortID="960195484">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-18</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
