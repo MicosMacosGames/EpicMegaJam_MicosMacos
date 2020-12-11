@@ -18,7 +18,7 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="tp_end" ID="{0DDC3FC1-8AE8-4F57-AA7C-2988E643CEB3}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}"/>
+							<ObjectRef Name="stop_gameplay_music" ID="{EAFC4CD6-98E9-4DC7-B4AC-D3DA6C258CED}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
@@ -26,8 +26,12 @@
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="play_button_locked" ID="{5CFE974A-74BE-42C6-9D74-34E58C1DFDF1}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}"/>
+							<ObjectRef Name="tp_end" ID="{0DDC3FC1-8AE8-4F57-AA7C-2988E643CEB3}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}"/>
 							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="play_button_locked" ID="{5CFE974A-74BE-42C6-9D74-34E58C1DFDF1}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}"/>
+							<Position X="1" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="play_gameplay_music" ID="{E95E99F2-0B45-4935-9EFB-974F140E476F}" WorkUnitID="{8E773B93-F085-4C56-B2B1-9D920D8CABD6}"/>
@@ -141,7 +145,7 @@
 						<CurrentStateRef Name="tile" ID="{0A621D1C-3E8F-43EE-B59D-49F7B9146A56}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="metal" ID="{7EAE14BF-60F6-4431-878D-DD31A32495ED}"/>
+						<CurrentSwitchRef Name="tile" ID="{202D0293-272A-42C5-9406-27C48A95142A}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

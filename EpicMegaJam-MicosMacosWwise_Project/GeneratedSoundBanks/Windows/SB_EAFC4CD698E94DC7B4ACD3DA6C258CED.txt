@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3536547992	stop_gameplay_music			\Default Work Unit\Music\stop_gameplay_music	
+

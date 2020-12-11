@@ -1,0 +1,38 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\",
+   "SourceFilesRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Github\\EpicMegaJam_GameJam\\EpicMegaJam_MicosMacos\\EpicMegaJam-MicosMacosWwise_Project\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4509454",
+    "GUID": "{0044CF0E-CF0E-1F0E-0E0E-0E0E0E0E0E0E}",
+    "Language": "SFX",
+    "Hash": "3844823077",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_EAFC4CD698E94DC7B4ACD3DA6C258CED",
+    "ShortName": "SB_EAFC4CD698E94DC7B4ACD3DA6C258CED",
+    "Path": "SB_EAFC4CD698E94DC7B4ACD3DA6C258CED.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3536547992",
+      "Name": "stop_gameplay_music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\stop_gameplay_music",
+      "GUID": "{EAFC4CD6-98E9-4DC7-B4AC-D3DA6C258CED}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ]
+   }
+  ]
+ }
+}
