@@ -102,7 +102,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value="DAxN8dOa6kqiZZxAh20FnQ=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value="rCCpEH3AzkCiWtKDBy1ZBg=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_8_1" Type="string" Value=""/>
-				<Property Name="RTPC\GameParameterSimValue\{08469764-F0D9-4A4F-9950-D4797B8FFCB1}" Type="Real64" Value="943.790849673203"/>
+				<Property Name="RTPC\GameParameterSimValue\{08469764-F0D9-4A4F-9950-D4797B8FFCB1}" Type="Real64" Value="600"/>
 				<Property Name="RTPC\GameParameterSimValue\{09E2B445-C4A3-447F-B3CA-818A1D925EF7}" Type="Real64" Value="6"/>
 				<Property Name="RTPC\GameParameterSimValue\{1329EBEF-A193-472E-A38C-64668B494879}" Type="Real64" Value="50"/>
 				<Property Name="RTPC\GameParameterSimValue\{28387EE3-C13A-4316-B9C3-DB5C521624AF}" Type="Real64" Value="1"/>
