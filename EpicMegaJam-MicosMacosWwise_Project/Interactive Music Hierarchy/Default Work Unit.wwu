@@ -523,11 +523,6 @@
 				<MusicPlaylistContainer Name="main_menu_music" ID="{1EC2F723-3212-435A-B89F-EAEB9B370786}" ShortID="659943802">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="4"/>
-						<Property Name="OutputBusVolume" Type="Real64">
-							<ValueList>
-								<Value>-12</Value>
-							</ValueList>
-						</Property>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
