@@ -37,6 +37,7 @@ State	ID	Name	State Group			Notes
 	2637588553	tile	surface			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	1062779386	player_speed			\Default Work Unit\player_speed	
 	2540234394	tp_cast_volume			\Default Work Unit\tp_cast_volume	
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes

@@ -16,7 +16,7 @@
     "Id": "1031843195",
     "GUID": "{3D80AD7B-AD7B-1D7B-7B7B-7B7B7B7B7B7B}",
     "Language": "SFX",
-    "Hash": "697306821",
+    "Hash": "357231571",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_137DF81943F3D3CAE2FA10B12F60A66E",
     "ShortName": "SB_137DF81943F3D3CAE2FA10B12F60A66E",
     "Path": "SB_137DF81943F3D3CAE2FA10B12F60A66E.bnk",
@@ -598,6 +598,12 @@
      }
     ],
     "GameParameters": [
+     {
+      "Id": "1062779386",
+      "Name": "player_speed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\player_speed",
+      "GUID": "{08469764-F0D9-4A4F-9950-D4797B8FFCB1}"
+     },
      {
       "Id": "2540234394",
       "Name": "tp_cast_volume",
