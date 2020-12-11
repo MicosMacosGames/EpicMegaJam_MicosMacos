@@ -613,6 +613,39 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="2"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{EC7D5F1D-3FFB-49C9-BAC9-8472F1424770}" ShortID="1066011260">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="player_speed" ID="{08469764-F0D9-4A4F-9950-D4797B8FFCB1}" WorkUnitID="{10A920AC-C07D-40CE-A25A-D283072D5906}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{7E2F3787-E927-4E41-86E0-094EE1268172}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-2.60667</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>299.34641</XPos>
+														<YPos>0.03667</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>3.20594</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -716,6 +749,34 @@
 						<SwitchContainer Name="Walking_Step" ID="{1E7A122C-C01C-476A-B49F-53627D7B016C}" ShortID="805711558">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="1"/>
+								<Property Name="Highpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{31C5AE53-20B3-442F-83CB-D115AC7D2FA6}" ShortID="837196099">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="player_speed" ID="{08469764-F0D9-4A4F-9950-D4797B8FFCB1}" WorkUnitID="{10A920AC-C07D-40CE-A25A-D283072D5906}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{737DA35A-F364-4823-BCC9-0E4ABAE2BAC3}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-100</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>46</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
@@ -729,6 +790,50 @@
 											</Modifier>
 										</ModifierInfo>
 									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{6BE3C159-FA7C-40E1-8D53-B3225344C469}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+									<RTPCList>
+										<RTPC Name="" ID="{7D171A72-2748-43A9-AFCE-94612D3261C5}" ShortID="299537642">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="player_speed" ID="{08469764-F0D9-4A4F-9950-D4797B8FFCB1}" WorkUnitID="{10A920AC-C07D-40CE-A25A-D283072D5906}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{562375B8-0898-495D-8782-9B8448F09698}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-3.20594</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>298.03922</XPos>
+														<YPos>-0.1079</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>2.90114</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
