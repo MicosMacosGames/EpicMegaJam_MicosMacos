@@ -18,7 +18,7 @@
 				<GameParameter Name="player_speed" ID="{08469764-F0D9-4A4F-9950-D4797B8FFCB1}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="300"/>
-						<Property Name="Max" Type="Real64" Value="1000"/>
+						<Property Name="Max" Type="Real64" Value="600"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>
