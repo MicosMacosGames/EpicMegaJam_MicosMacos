@@ -16,7 +16,7 @@
     "Id": "702482391",
     "GUID": "{E58E0BD5-FCDA-42A2-9210-D8E3F1BDD478}",
     "Language": "SFX",
-    "Hash": "2998088009",
+    "Hash": "562392091",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Game",
     "ShortName": "Game",
     "Path": "Game.bnk",
@@ -132,6 +132,7 @@
       "Name": "play_anomaly_loop",
       "ObjectPath": "\\Events\\Default Work Unit\\Gameplay\\play_anomaly_loop",
       "GUID": "{E2FD1702-618D-4237-B20E-9562B6EF025F}",
+      "MaxAttenuation": "50000.000000",
       "DurationType": "Infinite",
       "ReferencedStreamedFiles": [
        {
