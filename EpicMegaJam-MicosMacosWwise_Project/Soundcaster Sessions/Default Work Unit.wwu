@@ -137,11 +137,11 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="present" ID="{E102FDEE-916C-4679-9BDF-2F3A3EC21EFA}"/>
+						<CurrentStateRef Name="past" ID="{60E0108C-4E7D-49DB-B42C-F9C1D3F8E7A0}"/>
 						<CurrentStateRef Name="tile" ID="{0A621D1C-3E8F-43EE-B59D-49F7B9146A56}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="metal" ID="{7EAE14BF-60F6-4431-878D-DD31A32495ED}"/>
+						<CurrentSwitchRef Name="tile" ID="{202D0293-272A-42C5-9406-27C48A95142A}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
